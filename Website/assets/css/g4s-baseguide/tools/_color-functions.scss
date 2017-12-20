@@ -1,0 +1,31 @@
+// Color Classes
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+    @if $color_type == 'base' {
+      .bg-#{$color_name} {
+        background-color: $color_value;
+      }
+      .#{$color_name} {
+        color: $color_value;
+      }
+    }
+    @else {
+      .bg-#{$color_name}.bg-#{$color_type} {
+        background-color: $color_value;
+      }
+      .#{$color_name}.#{$color_type} {
+        color: $color_value;
+      }
+    }
+  }
+}
+
+// Shade classes
+@each $color, $color_value in $shades {
+  .bg-#{$color} {
+    background-color: $color_value;
+  }
+  .#{$color} {
+    color: $color_value;
+  }
+}

@@ -1,0 +1,28 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.Jobs.Models.Jobs>
+<section class="jobs row bg-grey bg-grey-200 entry-content">
+    <div class="col col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-1">
+        <h2>@Editable(Model, x => x.Title)</h2>
+    </div>
+    <div class="col col-xs-12 col-md-6">
+        <div class="row">
+            <div class="col col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2">
+                <!-- RTE content -->
+                <p>@Editable(Model, x => x.Text)</p>
+                @RenderLink(Model, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", "btn mb1" } }, true)
+            </div>
+        </div>
+    </div>
+    <div class="col col-xs-12 col-md-6">
+        <div class="row">
+            @foreach (var job in Model.JobList)
+            {
+                <div class="col col-xs-10 col-xs-offset-1 col-md-offset-0 col-md-4">
+                    <h4>@Editable(job, x => x.Title)</h4>
+                    <p>@Editable(job, x => x.Text)</p>
+                    @RenderLink(job, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", "btn-link btn-link__arrow" } }, true)
+                </div>
+            }
+
+        </div>
+    </div>
+</section>

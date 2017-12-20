@@ -1,0 +1,8 @@
+.news-item{
+    padding: $spacing-base*2 0 $spacing-base;
+    border-bottom: 1px solid color('grey', 'base');
+
+	.btn-square{
+		padding: $spacing-base*0.1;
+	}
+}

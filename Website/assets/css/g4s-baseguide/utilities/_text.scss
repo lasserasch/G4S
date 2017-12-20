@@ -1,0 +1,34 @@
+.small {
+  font-size: $font-size-base * 0.85 !important;
+	line-height: $line-height-base *0.9 !important;
+
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.uppercase{
+  text-transform: uppercase !important;
+}
+
+.text-hide {
+  @include text-hide;
+}
+
+.text-truncate {
+  @include text-truncate;
+}
+
+.text-hyphenate {
+  @include text-hyphenate;
+}
+

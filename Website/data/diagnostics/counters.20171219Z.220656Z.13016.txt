@@ -1,0 +1,21 @@
+<report date='20171219T220656Z'>
+  <category name='Sitecore.Data'>
+    <counter name='Data.ClientDataReads' value='0' category='Sitecore.Data'/>
+    <counter name='Data.ClientDataWrites' value='0' category='Sitecore.Data'/>
+    <counter name='Data.ItemsAccessed' value='164749' category='Sitecore.Data'/>
+    <counter name='Data.PhysicalReads' value='0' category='Sitecore.Data'/>
+    <counter name='Data.PhysicalWrites' value='0' category='Sitecore.Data'/>
+    <counter name='SqlServerStream.OpenStreams' value='0' category='Sitecore.Data'/>
+    <counter name='StreamSharer.OpenStreams' value='0' category='Sitecore.Data'/>
+  </category>
+  <category name='Sitecore.Jobs'>
+    <counter name='Pipelines.PipelinesAborted' value='0' category='Sitecore.Jobs'/>
+    <counter name='Pipelines.PipelinesExecuted' value='333' category='Sitecore.Jobs'/>
+    <counter name='Pipelines.ProcessorsExecuted' value='846' category='Sitecore.Jobs'/>
+  </category>
+  <category name='Sitecore.System'>
+    <counter name='Xml.ItemNavigatorsCreated' value='0' category='Sitecore.System'/>
+    <counter name='Xml.PacketsCreated' value='0' category='Sitecore.System'/>
+  </category>
+</report>
+

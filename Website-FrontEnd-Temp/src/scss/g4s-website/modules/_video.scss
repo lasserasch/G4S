@@ -1,0 +1,114 @@
+.video {
+	@include backdrop;
+	position: relative;
+	overflow-y: hidden;
+	z-index: 1;
+
+	// @include mq(md) {
+		@include aspect-ratio(16, 9);
+
+		&.ratio-16\/4 {
+			@include aspect-ratio(16, 4);
+		}
+	// }
+
+	// Background is set inline
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+
+	@include mq(md) {
+		&-overlay,
+		&-player {
+			transition: 1s ease;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			min-height: 100%;
+		}
+	}
+
+	&-overlay {
+		position: relative;
+		z-index: 12;
+		@include mq(md) {
+			display: flex;
+
+		}
+
+		> .content {
+			padding: percentage(1 / $grid-columns) 0;
+			@include mq(md) {
+				padding: 0;
+				position: relative;
+				display: flex;
+				align-items: center;
+			}
+
+			button {
+				@include button-unstyled;
+				outline: none;
+
+				> svg {
+					.circle {
+						fill: rgba(0,0,0,0);
+						stroke: color('primary', 'base');
+						stroke-width: 2;
+						stroke-linecap: square;
+						transition: all .4s ease-out;
+					}
+
+					.triangle {
+						fill: color('primary', 'base');
+						transition: all .4s ease-out;
+					}
+
+					&:hover {
+						.circle {
+							fill: color('primary', 'base');
+						}
+
+						.triangle {
+							fill: white;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&-player {
+		z-index: 10;
+		opacity: 0;
+		top: 50% !important;
+
+		position: absolute;
+		transform: translateY(-50%);
+	}
+
+	&.is-playing {
+		.video-player {
+			opacity: 1;
+		}
+	}
+
+	// If Youtube..
+	&--youtube {
+		&.is-loading,
+		&.is-playing {
+			&:after {
+				background-color: rgba(#000, 1);
+			}
+
+			.video-overlay {
+				opacity: 0;
+			}
+		}
+
+		&.is-playing {
+			.video-player {
+				z-index: 12;
+			}
+		}
+	}
+}

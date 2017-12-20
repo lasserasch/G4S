@@ -1,0 +1,53 @@
+#{$headings} {
+	margin-top: $headings-spacing * 2;
+	margin-bottom: $headings-spacing;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
+	color: $headings-color;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+@include scale-headings;
+
+
+h1,
+h2{
+	font-size: to-rem(30px);
+	line-height: to_rem(35px);
+	margin-bottom: 0.7em;
+	@include mq(sm){
+		font-size: to-rem(50px);
+		line-height: to_rem(55px);
+	}
+}
+
+h3{
+	font-size: to-rem(25px);
+	line-height: to_rem(30px);
+}
+
+
+h4{
+	font-size: to-rem(18px);
+	line-height: to_rem(23px);
+	text-transform: uppercase;
+	margin-bottom: 1em;
+	letter-spacing: letter-spacing($std-letter-spacing);
+}
+
+h5{
+	font-size: to-rem(20px);
+	line-height: to_rem(30px);
+	text-transform: uppercase;
+	letter-spacing: letter-spacing($std-letter-spacing);
+}
+
+
+p{
+	font-size: to-rem(18px);
+	line-height: to-rem(23px);
+}

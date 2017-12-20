@@ -1,0 +1,26 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.FeatureGrid.Models.FeatureGrid>
+<section class="row entry-content">
+    <div class="col col-xs-12 col-lg-offset-1 col-lg-10">
+        <div class="feature-grid row text-center">
+
+            @foreach (var item in Model.Items)
+            {
+                var imageUrl = "";
+                if (item.Image != null)
+                {
+                    imageUrl = @item.Image.Src;
+                }
+                <div class="col col-xs-12 col-md-4 centered--v" style="background-image: url('@imageUrl');">
+                    <div class="entry-content__grid">
+                        @if (IsInEditingMode)
+                        {
+                            @RenderImage(item, x => x.Image, isEditable: true)
+                        }
+                        <h3>@Editable(item, x => x.Title)</h3>
+                        <p>@Editable(item, x => x.Text)</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

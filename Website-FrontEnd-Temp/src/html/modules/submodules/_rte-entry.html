@@ -1,0 +1,22 @@
+<% if (length === 'short') { %>
+	<div class="entry-content <%= textAlign %>">
+		<!-- RTE content -->
+		<h3>H2 headline</h3>
+		<p>Donec finibus ornare massa nec eleifend. Duis molestie eleifend quam, at vulputate augue pharetra quis.</p>
+	</div>
+<% }else{ %>
+	<div class="entry-content <%= textAlign %>">
+		<!-- RTE content -->
+		<h2>H2 headline</h2>
+		<p>Donec finibus ornare massa nec eleifend. Duis molestie eleifend quam, at vulputate augue pharetra quis.</p>
+		<p>Nunc luctus risus tortor. Mauris convallis scelerisque nibh, ut eleifend nisi porta ac. Donec vehicula vel eros in eleifend. Sed sit amet risus diam.</p>
+
+		<!-- btn alternatives
+			- bg-primary,
+			- bg-white,
+			- bg-grey bg-grey-200,
+			- bg-grey bg-grey-500,
+			- bg-black -->
+		<a class="btn" href="" target="_self" title="Gå til test">Button text</a>
+</div>
+<% } %>

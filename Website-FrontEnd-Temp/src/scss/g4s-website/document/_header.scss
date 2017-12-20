@@ -1,0 +1,142 @@
+header {
+	@include mq(sm){
+		min-height: to-rem(115px);
+	}
+
+	.header__wrapper{
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 5;
+		height: $header-height-mobile;
+		@include mq(sm){
+			height: auto;
+		}
+	}
+
+	.site-header {
+		position: relative;
+		padding: 15px 0;
+		transition: all $default-time $default-ease;
+		z-index: 1;
+		text-align: center;
+		.logo{
+			display: inline-block;
+			transition: height $default-time $default-ease;
+			height: 40px;
+			img{
+				height: 100%;
+				width: auto;
+				transition: height $default-time $default-ease;
+			}
+		}
+		@include mq(sm){
+			text-align: left;
+			padding: $spacing-base $spacing-base $spacing-base*1.5 $spacing-base;
+		}
+	}
+
+	.menu{
+		@include mq(sm){
+			padding-left: $spacing-base;
+			padding-right: $spacing-base;
+		}
+	}
+
+	.btn-globe{
+		position: absolute;
+		left: 8px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.btn-menu{
+		position: absolute;
+		right: 10px;
+		top: 52%;
+		transform: translateY(-50%);
+	}
+
+	.search{
+		position: relative;
+		input{
+			padding-right: $spacing-base*2;
+			width: 100%;
+			background-color: color('grey', 'grey-dark');
+		}
+
+		.btn-square{
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		@include mq(sm){
+			display: inline-block;
+			input{
+				font-weight: $headings-font-weight;
+				text-transform: uppercase;
+				background-color: color('grey', 'grey-100');
+				letter-spacing: letter-spacing($std-letter-spacing);
+				width: 11em;
+				transition: all $default-time $default-ease;
+				&:focus{
+					width: 15em;
+					background-color: color('grey', 'grey-100') !important;
+				}
+			}
+		}
+	}
+
+
+	// HEADROOM
+	&.headroom.headroom--not-top{
+		min-height: to-rem(115px); //TODO: make this better
+		.header__wrapper{
+			position: fixed;
+		}
+
+		.site-header {
+			padding-top: $spacing-base*0.5;
+			padding-bottom: $spacing-base*0.5;
+			.logo{
+				height: 30px;
+			}
+			.search input{
+				height: 34px;
+				background-color: white;
+			}
+		}
+	}
+}
+
+
+@include mq($until:sm){
+	.menu-lang,
+	.menu{
+		transform: translateY(-100%);
+		transition: transform $default-time $default-ease;
+		z-index: -1;
+	}
+
+	body.show-menu-nav{
+		overflow: hidden;
+		height: 100vh;
+		.menu{
+			transform: translateY(0%);
+			max-height: calc(100vh - #{$header-height-mobile});
+			overflow-y: scroll;
+		}
+	}
+	body.show-menu-lang{
+		overflow: hidden;
+		height: 100vh;
+		.menu-lang{
+			transform: translateY(0%);
+			max-height: calc(100vh - #{$header-height-mobile});
+			overflow-y: scroll;
+		}
+	}
+}

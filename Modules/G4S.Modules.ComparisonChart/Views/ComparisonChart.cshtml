@@ -1,0 +1,81 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.ComparisonChart.Models.ComparisonChart>
+<section class="comparion-chart text-center">
+    @{
+        var imageUrl = "";
+        if (Model.BackgroundImage != null)
+        {
+            imageUrl = Model.BackgroundImage.Src;
+        }
+    }
+    <div class="background" style="background-image: url('@imageUrl')"></div>
+
+    <div class="row">
+        <div class="col col-xs-12 entry-content">
+            <h2>@Editable(Model, x => x.Title)</h2>
+            @RenderLink(Model, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", "btn" } }, true)
+        </div>
+    </div>
+
+    <div class="row">
+        @foreach (var item in Model.Items)
+        {
+            <div class="col col-xs-12 col-md-4">
+                <div class="entry-content__grid bg-white">
+                    <h5 class="primary small">@Editable(item, x => x.Header)</h5>
+                    <h2 class="mt0">@Editable(item, x => x.Title)</h2>
+                    @RenderImage(item, x => x.Image, isEditable: true)
+                    <div class="equal-align text-left">
+                        <p>
+                            <strong>
+                                @Editable(item, x => x.SubTitle)<br>
+                                <span class="primary">@Editable(item, x => x.SubTitleText)</span>
+                            </strong>
+                        </p>
+                        <p>
+                            @Editable(item, x => x.Text)
+                    </p>
+                    <p class="primary">
+                        <strong>@Editable(item, x => x.InstallationTitle)</strong><br>
+                        <span class="h1">@Editable(item, x => x.InstallationPrice)</span>
+                    </p>
+                </div>
+                <strong>@Editable(item, x => x.SubscriptionTitle)</strong>
+                <table>
+                    <tr>
+                        <td>Forbrug</td>
+                        <td>@Editable(item, x => x.MounthlyFee)</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>@Editable(item, x => x.TotalPrice)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="bonus entry-content__grid bg-grey bg-grey-400 white text-left">
+                <div class="media">
+                    <div class="media-left">
+                        @RenderImage(item, x => x.BonusImage, isEditable: true)
+                    </div>
+                    <div class="media-body media-middle">
+                        <p class="m0">
+                            <strong>@Editable(item, x => x.BonusTitle)</strong><br>
+                            @Editable(item, x => x.BonusText)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+
+    <div class="row">
+        <div class="col col-xs-12 entry-content">
+            <p>@Editable(Model, x => x.Text)</p>
+            @RenderLink(Model, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", "btn" } }, true)
+        </div>
+    </div>
+
+
+
+</section>

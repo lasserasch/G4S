@@ -1,0 +1,23 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+        @Html.Sitecore().VisitorIdentification()
+    </head>
+    <body>
+        <h1>@Html.Sitecore().Field("title")</h1>
+        <div style="width:70%;float:left;margin-right:10px;">
+            
+            @Html.Sitecore().Placeholder("main")
+        </div>
+
+        <div style="width:25%; float:right;">
+            @Html.Sitecore().Placeholder("right")
+        </div>
+    </body>
+</html>

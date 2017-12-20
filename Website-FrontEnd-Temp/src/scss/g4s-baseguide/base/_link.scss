@@ -1,0 +1,21 @@
+a {
+	color: $link-color;
+	text-decoration: $link-decoration;
+
+	&:hover,
+	&:focus {
+		color: $link-hover-color;
+		text-decoration: $link-hover-decoration;
+	}
+
+	&.cover{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 3;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+}

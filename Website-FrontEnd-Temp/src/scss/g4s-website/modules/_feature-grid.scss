@@ -1,0 +1,15 @@
+.feature-grid{
+	.col{
+		min-height: $grid-container*0.28;
+		&:nth-child(odd){
+			background-color: color('grey', 'grey-100');
+		}
+		&:first-of-type{
+			background-color: $primary-color;
+			color: white;
+			.entry-content{
+				text-align: left;
+			}
+		}
+	}
+}

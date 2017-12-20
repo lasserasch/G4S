@@ -1,0 +1,56 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.CountrySelector.Models.CountrySelector>
+
+
+<nav id="country-nav" class="menu-lang js-nav-country uppercase small white">
+
+    <div class="container">
+
+        <div class="dropdown bg-primary bg-primary bg-darken-1">
+            <div class="wrapper-centered">
+                <div class="global-links">
+                    <ul class="list-unstyled">
+                        @{
+                            var firstRegion = @Model.Regions.FirstOrDefault();
+                            <li>@firstRegion.Name</li>
+                            if (firstRegion != null)
+                            {
+                                foreach (var site in firstRegion.Sites)
+                                {
+                                    <li> @RenderLink(site, x => x.Link, true)</li>
+                                }
+                            }
+                        }
+                    </ul>
+                </div>
+                <div class="country-selector bg-primary">
+                    <ul class="list-unstyled tabs">
+                        @if (Model.Regions != null && Model.Regions.Count() > 1)
+                        {
+                            foreach (var region in Model.Regions.Skip(1))
+                            {
+                                <li>
+                                    <button class="opener js-btn-opener">@region.Name<i class="icon icon-arrow-down sm-hide"></i></button>
+                                    <div class="block submenu">
+                                        <div class="holder">
+                                            <ul class="list-unstyled country-list">
+                                                @foreach (var site in region.Sites)
+                                                {
+                                                    <li> @RenderLink(site, x => x.Link, true)</li>
+                                                    foreach (var subsite in site.Sites)
+                                                    {
+                                                        @RenderLink(subsite, x => x.Link, true)
+                                                    }
+                                                }
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

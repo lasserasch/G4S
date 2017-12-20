@@ -1,0 +1,46 @@
+.segment-picker{
+	.background{
+		position: absolute;
+		left: 0%;
+		height: 100%;
+		width: 35%;
+		background-position: left center;
+		z-index: 0;
+		transition: width 0.7s $default-ease;
+		will-change: width;
+	}
+	> .col:hover{
+		&:before{
+			opacity: 0.7;
+		}
+		.background{
+			width: 40%;
+		}
+	}
+
+	> .col{
+		&:before{
+			content: '';
+			position: absolute;
+			background-color: inherit;
+			opacity: 0.8;
+			transition: opacity 0.5s $default-ease;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+		}
+		.row{
+			z-index: 1;
+			position: relative;
+		}
+		&:nth-child(even){
+			.background{
+				background-position: left center;
+				left: auto;
+				right: 0;
+			}
+		}
+	}
+}

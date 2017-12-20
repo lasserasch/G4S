@@ -1,0 +1,23 @@
+þÿÿÿ—	_uniqueid_datasource
+_indexname	_database	_language	_template_parent_latestversion_version_group	_fullpath_name_creator_templatename_path_content__enforce_version_presence__thumbnail__hidden__enable_item_fallback__content_test__final_renderings__workflow_state__bucketable__is_bucket__smallcreateddate__smallupdateddate
+istemplatehaschildrenlockparsedcreatedbyparsedupdatedbyparsedlanguagecultureversionQisbucket_texturllinksite__lock_displaynametexttitleruledefaultdescriptionmodelareatype
+stylesheeteditablelogin_renderingplaceholderopen_properties_after_adddata_sourceparameters_templatepathcustomize_page
+dimensionsasset_3alt	extensionasset_2zipcodemarketing_assetlocationdescriptionasset_1artistcountrycodecalculateddimension	sizerangefallback_language
+dictionaryshow_in_xfile_as_latest_eventgoal_facet_1goal_facet_2isliveeventshow_in_xfile_events_listgoal_facet_3classify_asageenvironment	interestsdevicegeo_longitudegeo_countryname associated_sitecore_user_profilereferrerresponsibilitypsychographicsorganizationfamilydayofmylive	educationgoaldetailsimagegeo_iptagsvisit_1visit_2visit_5visit_4viewed_pagesvisit_3monetary_value_applicablegroupbuildertype	site_namemaptypemapitemtypetargetchannel__workflow_validation_rulesincludeoutcomesincludecampaignincludeentrypageincludegoalsincludepageeventsincludeexitpageincludechannelincludegoalswithvalueincludeallpages
+targetgoalreversetargetoutcomedecayQ	tagprefixpreview_publishing_targetcontroller_action
+parameters
+controller
+index_nameupdate_test_statisticsschedulecommand	referencedefault_comment_templatedefault_comment_dialog_heightQcomment_templateappearance_evaluator_typecodeunversionedenable_language_fallbackignore_dictionary_translationsis_displayed_in_search_resultsenable_shared_language_fallbackdefault_valueclassification	editor_idimplementation_typeiconeditor_typerequiredkeyeditor_parameterskeywordsmap_providerapi_keyscriptsfilterentryconstructorparametersfilteringkeyvalueAdisplaynameminimum_number_of_itemsQenableddisplay_text__semanticscampaign_facet_4campaign_facet_2campaign_groupcampaign_facet_5datacampaign_facet_7campaign_facet_3campaign_facet_6channelcampaign_facet_1ownersegmentdefinitionidpredefinedparameterspredefinedsourcetypeprimary_domainmatcher_rulelanguage_ruleis_ajaxstylesis_template	css_class
+field_typeis_tracking_enabled
+allow_savelabel_css_classnavigation_stepQ
+is_dynamicvalue_field_nameshow_empty_item
+datasourcedisplay_field_namedefault_selectionvalidations
+max_length
+min_lengthplaceholder_textrowsAmultiple_selectionstepconfirm_password_placeholderconfirm_password_labelhtml_tag	mime_type	file_pathsizeformatwidthheightrules#create_suggested_tests_if_no_wizard
+next_statespritepositionbackgroundcolorfield_template
+model_type	view_path
+isdisabledproperty_editorallowed_validationsselectorpositionlanguage
+referenceserror_messageeditorvalidator_barquick_action_barvalidate_buttonworkflowdisplay_nameidmessagekeycodetooltip
+access_keyclicktargetassettargetcampaign__publishing_groupsmethodoriginal_value	test_type
+test_scoreexperiencesis_test_canceledend_datetest_durationeffectcontent_itemwinnercombinationconfidencelevelguessmindurationtrackwithengagementmaxdurationselect_winner_strategy
+metrictypemetricsfilterpersonalizationaccordion_nametab_name%personalization_test_workflow_command'deploy_associated_personalization_tests"deploy_associated_page_level_tests page_level_test_workflow_command$deploy_associated_multivariate_tests"multivariate_test_workflow_commandsourcedelete_test_definitionrequiretestcandidates

@@ -1,0 +1,36 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.HeroSlider.Models.HeroSlider>
+
+<section class="swiper-container js-slider" data-overlay-style="full" data-pagination-label=true>
+	<div class="swiper-wrapper slider-wrapper">
+
+@foreach (var slide in Model.Slides)
+{
+
+		<div class="swiper-slide slide js-slide swiper-lazy" data-background="https://picsum.photos/1600/800?image=0" data-label="Hello water">
+			<div class="slide__content white">
+				<h2>@Editable(slide, x => x.Title)</h2>
+               @RenderLink(slide, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", "btn" } }, true)
+				
+			</div>
+
+			<div class="slide__complementary bg-primary white visible-lg-up" aria-label="complementary">
+				<h3>@Editable(slide, x => x.FocusTitle)</h3>
+				<p>@Editable(slide, x => x.FocusText)</p>
+				<h4>@Editable(slide, x => x.FocusSubtitle)</h4>
+			</div>
+		</div>
+}
+	</div>
+
+	<!-- Add Pagination -->
+	<div class="slider-controls js-slider-controls">
+		<button class="js-slider-button-prev slider-button" aria-label="Previous slide">
+			<i class="icon icon-arrow-left"></i>
+		</button>
+		<div class="js-slider-pagination slider-pagination"></div>
+		<button class="js-slider-button-next slider-button" aria-label="Next slide">
+			<i class="icon icon-arrow-right"></i>
+		</button>
+	</div>
+
+</section>

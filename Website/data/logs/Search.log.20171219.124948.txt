@@ -1,0 +1,13 @@
+﻿6784 12:49:50 INFO  Warming and Caching your search indexes
+6784 12:49:50 INFO  /******* Warming Queries ********/
+6784 12:49:50 INFO  /*************************/
+12836 12:50:46 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+8720 12:59:50 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+3308 12:59:56 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+6344 13:00:30 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:d017db4cc2d34b1cb69635a9545dd67e)) - Filter : 
+6344 13:00:30 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): is_displayed_in_search_results:1 - Filter : +(_language:en*)
+7832 13:00:31 INFO  GetFacets : _templatename : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:d017db4cc2d34b1cb69635a9545dd67e))
+7832 13:00:31 INFO  GetFacets : culture : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:d017db4cc2d34b1cb69635a9545dd67e))
+7832 13:00:31 INFO  GetFacets : parsedcreatedby : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:d017db4cc2d34b1cb69635a9545dd67e))
+7832 13:00:31 INFO  GetFacets : __smallcreateddate : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:d017db4cc2d34b1cb69635a9545dd67e))
+8720 13:00:45 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin

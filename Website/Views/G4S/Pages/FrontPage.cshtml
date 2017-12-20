@@ -1,0 +1,144 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html class="no-js" lang="dk">
+<head>
+    <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+    @Html.Sitecore().VisitorIdentification()
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="humans.txt" rel="author" />
+    <script src="/assets/js/modernizr.js"></script>
+
+</head>
+
+
+<body class="homepage">
+    <header class="js-header js-menu">
+        <div class="header__wrapper bg-white">
+            <div class="site-header bg-white">
+                <div class="container">
+
+                    <!-- MOBILE LANG SEL-->
+                    <button class="btn-square btn-globe bg-transparent grey grey-dark js-btn-lang sm-hide" title="Change country"><i class="icon icon-globe h4"></i></button>
+
+                    <a class="logo" href="/" title="Gå til forsiden">
+                        <img src="/assets/images/logo.svg" alt="g4s" width="80" height="47">
+                    </a>
+
+                    <div class="pull-right">
+                        <div class="search sm-show">
+                            <input type="text" class="small" placeholder="Søg her..." />
+                            <button class="btn-square bg-transparent" title="Søg"><i class="icon icon-search primary h5"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- MOBILE MENU BUTTON-->
+                    <button class="btn-square btn-menu bg-transparent js-btn-menu sm-hide" title="Open menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="menu bg-black">
+
+                <!-- MOBILE SEARCH-->
+                <div class="search sm-hide bg-grey bg-grey-dark">
+                    <input type="text" class="bg-grey bg-grey-dark white" placeholder="Søg her..." />
+                    <button class="btn-square bg-transparent" title="Søg"><i class="icon icon-search primary h5"></i></button>
+                </div>
+
+                <nav class="container white">
+                    <ul class="primary-navigation list-unstyled nav-primary uppercase" role="navigation" aria-label="Primary Navigation">
+                        <li class="item">
+                            <div class="item__link">
+                                <a class="parent" href="/private.html" title="Gå til Privat">Privat</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item__link">
+                                <a href="/" title="title">Niveau 1.2</a>
+                                <button class="js-toggle sm-hide"><i class="icon icon-arrow-down"></i></button>
+                            </div>
+                            <div class="item__sublevel sm-hide">
+                                <ul>
+                                    <div class="item__link">
+                                        <a href="/" title="title">Niveau 2.1</a>
+                                    </div>
+                                    <div class="item__link">
+                                        <a href="/" title="title">Niveau 2.2</a>
+                                    </div>
+                                    <li class="item">
+                                        <div class="item__link">
+                                            <a href="/" title="title">Niveau 2.3</a>
+                                            <button class="js-toggle"><i class="icon icon-arrow-down"></i></button>
+                                        </div>
+                                        <div class="item__sublevel">
+                                            <ul>
+                                                <li>
+                                                    <div class="item__link">
+                                                        <a href="/" title="title">Niveau 3.1</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item__link">
+                                                        <a href="/" title="title">Niveau 3.2</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item__link">
+                                            <a href="/" title="title">Niveau 2.4</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item__link">
+                                <a href="/" title="title">Niveau 1.3</a>
+                            </div>
+                            <div class="item__sublevel">
+                                <ul>
+                                    <li><a href="#">Niveau 2.1</a></li>
+                                    <li><a href="#">Niveau 2.2</a></li>
+                                    <li><a href="#">Niveau 2.3</a></li>
+                                    <li><a href="#">Niveau 2.4</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="pull-right dropdown js-drop md-show">
+                            <button class="btn btn-lang bg-primary js-btn-lang" title="Vælg land"><span>Vælg land</span></button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            @Html.Sitecore().Rendering("{84A66D5A-F379-4F9C-81F0-FF5633A2541D}", new { DataSource = "{79250CC5-07E5-4E39-B712-EB1E36DF6393}" })
+           
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        @Html.Sitecore().Placeholder("main")
+    </main>
+
+    @Html.Sitecore().Rendering("{3A90C2E8-F8A9-4EB6-9107-DA55066A5E9F}", new { DataSource = "{C60AA5DF-B286-4F74-9DC7-A2213F27ED33}" })
+
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <link href="https://file.myfontastic.com/znQNpgNGxBtq6M8it42fdi/icons.css" rel="stylesheet">
+</body>
+</html>

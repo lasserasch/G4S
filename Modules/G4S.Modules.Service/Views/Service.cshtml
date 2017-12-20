@@ -1,0 +1,63 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.Service.Models.Service>
+<section class="service row">
+
+    <div class="col col-xs-12 col-md-6">
+        <div class="row">
+            <div class="col col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2 entry-content">
+                <!-- RTE content -->
+                <h2>@Editable(Model, x => x.Title)</h2>
+
+                @if (IsInEditingMode)
+                {
+                    @Editable(Model, x => x.Text)<br/>
+                    @Editable(Model, x => x.Link)
+                }
+                else
+                {
+                    <p>@Editable(Model, x => x.Text)</p>
+                    @RenderLink(Model, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", "btn-link" } }, true)
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col col-xs-12 col-md-6 entry-content text-center">
+        <div class="row">
+            <div class="col col-xs-12 col-md-10">
+                <div class="row service__types">
+
+                    @foreach (var servicelink in Model.ServiceLinks)
+                    {
+                        <div class="col col-xs-12 col-sm-4 par__equal-align">
+                            <div class="entry-content par__equal-align">
+                                @if (IsInEditingMode)
+                                {
+
+                                    @Editable(servicelink, x => x.Link)
+                                }
+                                else
+                                {
+                                    @RenderLink(servicelink, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", "cover" } }, true)
+                                }
+                                <i class="h2 icon icon-qa block-center grey grey-300"></i>
+                                <h4 class="uppercase std-paddin--v m0">@Editable(servicelink, x => x.Title)</h4>
+                                <div class="equal-align">
+                                    <p class="small">@Editable(servicelink, x => x.Text)</p>
+
+                                    <h4 class="uppercase primary">
+                                    @if (servicelink.Link != null)
+                                    {
+                                      <text>@servicelink.Link.Text</text>
+                                    }
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

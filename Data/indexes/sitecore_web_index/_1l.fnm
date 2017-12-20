@@ -1,0 +1,23 @@
+þÿÿÿ—	_uniqueid_datasource
+_indexname	_database	_language	_template_parent_latestversion_version_group	_fullpath_name_creator_templatename_path_content__enforce_version_presence__thumbnail__hidden__enable_item_fallback__content_test__workflow_state__final_renderings__bucketable__is_bucket__smallcreateddate__smallupdateddate
+istemplatehaschildrenlockparsedcreatedbyparsedupdatedbyparsedlanguageculturesiteversionQurllinkisbucket_text__lock_displaynametexttitledefaultrulemodelareadescriptioneditableparameters_templateplaceholder	tagprefixopen_properties_after_addlogin_renderingpathdata_sourcecontroller_action
+parameters
+controllercustomize_pagetype
+stylesheetasset_3
+dimensionsaltasset_2zipcode	extensionmarketing_assetlocationdescriptionasset_1artistcountrycodecalculateddimension	sizerangeunversionedenable_language_fallbackignore_dictionary_translationsis_displayed_in_search_resultsenable_shared_language_fallbackdefault_valuebuildertypemaptypenamemapitemtypetargetoutcome__workflow_validation_rulesreverse	site_namecampaign_facet_4campaign_facet_2campaign_groupcampaign_facet_5datacampaign_facet_7campaign_facet_3campaign_facet_1channelcampaign_facet_6ownersegmentdefinitionidpredefinedparameterspredefinedsourcetypeisliveeventshow_in_xfile_as_latest_eventshow_in_xfile_events_listgoal_facet_1goal_facet_2goal_facet_3valueAgoaldetailsdecayQrulesdeviceoriginal_value	test_typecontent_itemwinnercombinationconfidencelevellanguageguesstrackwithengagementmindurationselect_winner_strategymaxduration
+test_scoreexperiencesis_test_canceledend_datetest_durationeffect
+referenceskeycomment_templateappearance_evaluator_typedefault_comment_templatedefault_comment_dialog_heightQfilter
+metrictypeaccordion_nametab_namemethodmap_provider
+index_nameupdate_test_statisticsprimary_domainmatcher_rulelanguage_ruleclassify_asgeo_countrygeo_longitude associated_sitecore_user_profilereferrergeo_ipageenvironment	interestsresponsibilitypsychographicsorganizationfamilydayofmylive	educationselectorpositionsourcelabel_css_class	css_class
+field_typenavigation_stepQ
+allow_saverequiredis_tracking_enabledvalue_field_name
+is_dynamicshow_empty_item
+datasourcedisplay_field_namedefault_selectionvalidations
+max_length
+min_lengthplaceholder_textrowsAmultiple_selectionstepconfirm_password_placeholderconfirm_password_labelhtml_tagstylesis_ajaxscriptsis_templatecode	editor_idclassificationimplementation_typeicon%personalization_test_workflow_command'deploy_associated_personalization_tests"deploy_associated_page_level_tests page_level_test_workflow_command$deploy_associated_multivariate_tests"multivariate_test_workflow_commandmonetary_value_applicablegroup#create_suggested_tests_if_no_wizardcommanddelete_test_definitiondisplay_textenabledrequiretestcandidatesfallback_language
+dictionarydisplaynameminimum_number_of_itemsQimagetagsvisit_1visit_2visit_5visit_4viewed_pagesvisit_3metricstargetchannel
+targetgoalincludeoutcomesincludecampaignincludeentrypageincludepageeventsincludegoalsincludeexitpageincludeallpagesincludechannelincludegoalswithvalueapi_keypreview_publishing_targetkeywordseditor_typefilterentryfilteringkeyconstructorparameterseditor_parameters__semantics__publishing_groupsspritepositionbackgroundcolorfield_template
+model_type	view_path
+isdisabledproperty_editorerror_messageeditorallowed_validationsmessagevalidator_barquick_action_barvalidate_buttonworkflowdisplay_nameidkeycodetooltipclick
+access_key	referencepersonalization
+next_state	mime_type	file_pathformatsizewidthheighttargetassettargetcampaignschedule

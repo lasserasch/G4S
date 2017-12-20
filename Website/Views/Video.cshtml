@@ -1,0 +1,49 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.Video.Models.Video>
+
+@{  var imageUrl = "";
+    if (@Model.Image != null)
+    {
+        imageUrl = @Model.Image.Src;
+    }
+}
+<div class="video js-video " data-video-url="@Model.VideoUrl" style="background-image:url('@imageUrl')">
+
+    @if (IsInEditingMode)
+    {
+        <div class="video-overlay js-video-overlay">
+            <div class="content">
+                <div class="row">
+                    <div class="col col-xs-10 col-xs-offset-1 col-md-6 white">
+                        <h2>@Editable(Model, x => x.Title)</h2>
+                        <p>
+                            @Editable(Model, x => x.Text)
+                            <br/>
+                            Video URL : @Editable(Model, x => x.VideoUrl)
+                            <br/>
+                            Baggrunds Billede :
+                            @RenderImage(m => m.Image, isEditable: true)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        if (!string.IsNullOrEmpty(Model.Title))
+        {
+            <div class="video-overlay js-video-overlay">
+                <div class="content">
+                    <div class="row">
+                        <div class="col col-xs-10 col-xs-offset-1 col-md-6 white">
+                            <h2>@Editable(Model, x => x.Title)</h2>
+                            <p>
+                                @Editable(Model, x => x.Text)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

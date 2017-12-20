@@ -1,0 +1,67 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.Text.Models.Text>
+<!--Row with one element-->
+<section class="row bg-primary white">
+    <div class="col col-xs-10 col-xs-offset-1 entry-content">
+        <h1 class="h2 mt0">@Editable(Model, x => x.Title)</h1>
+        @if (IsInEditingMode)
+        {
+            @Editable(Model, x => x.Value)
+        }
+        else
+        {
+            <p>@Editable(Model, x => x.Value)</p>
+        }
+
+
+        <table class="table">
+            <thead>
+                @foreach (var r in Model.Rows.Where(r => r is G4S.Modules.Text.Models.TableHeaderRow))
+                {
+                <tr>
+                    @foreach (var c in r.Columns)
+                        {
+                            var cssClass = "";
+                            if (c.CenterText)
+                            {
+                                cssClass = "text-center";
+                            }
+                    <th class="@cssClass">@Editable(c, x => x.Text)</th>
+                        }
+                </tr>
+                }
+            </thead>
+            <tbody>
+                @foreach (var r in Model.Rows.Where(r => r is G4S.Modules.Text.Models.TableContentRow))
+                {
+                <tr>
+                    @foreach (var c in r.Columns)
+                        {
+                            var cssClass = "";
+                            if (c.CenterText)
+                            {
+                                cssClass = "text-center";
+                            }
+                    <td class="@cssClass">@Editable(c, x => x.Text)</td>
+                        }
+                </tr>
+                }
+            </tbody>
+            <tfoot>
+                @foreach (var r in Model.Rows.Where(r => r is G4S.Modules.Text.Models.TableFooterRow))
+                {
+                    <tr>
+                        @foreach (var c in r.Columns)
+                        {
+                            var cssClass = "";
+                            if (c.CenterText)
+                            {
+                                cssClass = "text-center";
+                            }
+                            <td class="@cssClass">@Editable(c, x => x.Text)</td>
+                        }
+                    </tr>
+                }
+            </tfoot>
+        </table>
+    </div>
+</section>

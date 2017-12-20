@@ -1,0 +1,134 @@
+$aside-navigation-transtion-time: 360ms;
+
+
+
+ul.nav-primary{
+	li{
+		display: block;
+	}
+
+	@include mq(sm){
+		li{
+			display: inline-block;
+			vertical-align: middle;
+			padding-right: 1rem;
+			&:last-of-type{
+				padding-right: 0;
+			}
+		}
+	}
+
+	.drop-language{
+		position: absolute;
+		display: none;
+	}
+
+	.btn-lang{
+		border-radius: 0;
+		padding: $spacing-base $spacing-base*2;
+		font-size: to-rem(14px);
+	}
+}
+
+
+.primary-navigation {
+	ul {
+		@include list-unstyled;
+		margin-bottom: 0;
+	}
+
+
+	.item {
+		transition: background-color $aside-navigation-transtion-time ease 100ms;
+		&__link {
+			display: flex;
+			align-items: center;
+			a, button {
+				@include button-unstyled;
+				transition: color $aside-navigation-transtion-time ease;
+				text-decoration: none;
+				font-weight: 600;
+				padding: $table-padding-vertical $spacing-base;
+
+				&:hover {
+					color: rgba($primary-color, .85);
+				}
+
+				&:active, &:focus {
+					color: $primary-color;
+				}
+
+				@include mq(sm){
+					padding: $spacing-base;
+				}
+			}
+
+			a {
+				flex: 1 1 auto;
+				font-size: to-rem(14px);
+				letter-spacing: 0.02em;
+
+			}
+
+			a + button {
+				position: relative;
+				padding: 0;
+				height: $spacing-base * 2;
+				width: $spacing-base * 2;
+
+				i {
+					transition: transform $aside-navigation-transtion-time easeInOutCubic;
+					display: block;
+				}
+
+				&:before {
+					transition: background-position $aside-navigation-transtion-time easeInOutCubic;
+					content: '';
+					position: absolute;
+					left: -1;
+					width: 1px;
+					height: 30px;
+					top: 50%;
+					background-image: linear-gradient(to bottom, rgba(#000, .5) 0%,rgba(#000, .5) 50%, rgba(#000, .25) 50%,rgba(#000, .25) 100%);
+					background-size: auto 200%;
+					background-position: bottom;
+					transform: translateY(-50%);
+				}
+			}
+		}
+		&__sublevel {
+			overflow: hidden;
+			transition: max-height $aside-navigation-transtion-time + 100 easeInOutCubic;
+			max-height: 0;
+		}
+
+		&.is-current > {
+			.item__link {
+				a, button {
+					color: $primary-color;
+				}
+			}
+		}
+
+		&.is-open {
+			background-color: rgba(256, 256, 256, .5);
+			> {
+
+				.item__link {
+					button {
+						i {
+							transform: rotate(-180deg);
+						}
+
+						&:before {
+							background-position: top;
+						}
+					}
+				}
+				.item__sublevel {
+					max-height: 400px;
+				}
+			}
+		}
+	}
+}

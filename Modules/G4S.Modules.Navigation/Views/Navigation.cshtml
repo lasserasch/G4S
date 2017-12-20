@@ -1,0 +1,63 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.Navigation.Models.Navigation>
+
+<nav class="container white">
+
+    <ul class="primary-navigation list-unstyled nav-primary uppercase" role="navigation" aria-label="Primary Navigation">
+        @foreach (var item in Model.NavigationItems)
+        {
+
+            <li class="item">
+                <div class="item__link">
+                    @RenderLink(item, x => x.Url, false)
+                    @if (item.NavigationItems != null && item.NavigationItems.Any())
+                {
+                        <button class="js-toggle sm-hide"><i class="icon icon-arrow-down"></i></button>
+
+                    }
+                </div>
+                @if (item.NavigationItems != null && item.NavigationItems.Any())
+                {
+                    <div class="item__sublevel sm-hide">
+                        <ul>
+                            <div class="item__link">
+                                <a href="/" title="title">Niveau 2.1</a>
+                            </div>
+                            <div class="item__link">
+                                <a href="/" title="title">Niveau 2.2</a>
+                            </div>
+                            <li class="item">
+                                <div class="item__link">
+                                    <a href="/" title="title">Niveau 2.3</a>
+                                    <button class="js-toggle"><i class="icon icon-arrow-down"></i></button>
+                                </div>
+                                <div class="item__sublevel">
+                                    <ul>
+                                        <li>
+                                            <div class="item__link">
+                                                <a href="/" title="title">Niveau 3.1</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item__link">
+                                                <a href="/" title="title">Niveau 3.2</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item__link">
+                                    <a href="/" title="title">Niveau 2.4</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                }
+            </li>
+        }
+
+        <li class="pull-right dropdown js-drop md-show">
+            <button class="btn btn-lang bg-primary js-btn-lang" title="Vælg land"><span>Vælg land</span></button>
+        </li>
+    </ul>
+</nav>

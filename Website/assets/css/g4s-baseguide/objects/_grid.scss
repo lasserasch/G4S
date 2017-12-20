@@ -1,0 +1,20 @@
+.container {
+  @include container;
+}
+
+.row {
+  @include row;
+	background-position: center center;
+}
+
+.col {
+  @include column-base;
+	background-position: center center;
+}
+
+// Generate columns for all breakpoints
+@include loop-breakpoints {
+  @include loop-columns($breakpoint);
+}
+
+
