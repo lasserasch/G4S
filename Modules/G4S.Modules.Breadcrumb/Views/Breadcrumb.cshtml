@@ -1,0 +1,23 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.Breadcrumb.Models.Breadcrumb>
+<div class="row breadcrumb visible-md-up">
+    <div class="pull-left bg-primary">
+        <ul class="list-unstyled list-inline small" aria-label="Breadcrumb">
+            @foreach (var element in Model.Elements)
+            {
+                if (!element.IsCurrent)
+                {
+                    <li>
+                      <a href="@element.Url">@element.Title</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="is-current">
+                   <a href="@element.Url" title="Current page" aria-current="page">@element.Title</a></li>
+                    
+                }
+            }
+        </ul>
+    </div>
+</div>
+

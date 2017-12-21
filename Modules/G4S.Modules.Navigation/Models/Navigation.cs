@@ -7,5 +7,6 @@ namespace G4S.Modules.Navigation.Models
     {
         [SitecoreChildren(InferType = true)]
         public virtual IEnumerable<NavigationItem> NavigationItems { get; set; }
+        public string ChooseCountryText { get; set; }
     }
 }

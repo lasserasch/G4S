@@ -1,0 +1,11 @@
+﻿11212 22:34:59 INFO  Warming and Caching your search indexes
+11212 22:34:59 INFO  /******* Warming Queries ********/
+11212 22:34:59 INFO  /*************************/
+8920 22:35:45 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+8172 22:41:09 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+11256 22:41:29 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+12524 22:41:37 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+10620 22:41:43 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+10444 22:41:48 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+10620 22:41:59 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+14208 22:42:04 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin

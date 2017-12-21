@@ -1,0 +1,54 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.Navigation.Models.Navigation>
+
+
+<nav class="container white">
+    <ul class="primary-navigation list-unstyled nav-primary uppercase" role="navigation" aria-label="Primary Navigation">
+        @foreach (var item in Model.NavigationItems)
+        {
+            <li class="item">
+                <span class="item__link">
+                    <a href="@item.Url" title="title">@item.NavigationTitle</a>
+
+                    @if (item.NavigationItems != null && item.NavigationItems.Any())
+                    {
+                        <button class="js-toggle sm-hide"><i class="icon icon-arrow-down"></i></button>
+                    }
+                </span>
+                @if (item.NavigationItems != null && item.NavigationItems.Any())
+                {
+                    <ul class="item__sublevel md-hide">
+                        @foreach (var subitem in item.NavigationItems)
+                        {
+                            <li class="item">
+                                <span class="item__link">
+                                    <a href="@subitem.Url" title="title">@subitem.NavigationTitle</a>
+                                    @if (subitem.NavigationItems != null && subitem.NavigationItems.Any())
+                                    {
+                                        <button class="js-toggle"><i class="icon icon-arrow-down"></i></button>
+                                    }
+                                </span>
+                                @if (subitem.NavigationItems != null && subitem.NavigationItems.Any())
+                                {
+                                    <ul class="item__sublevel">
+                                        @foreach (var subsubitem in subitem.NavigationItems)
+                                        {
+                                            <li class="item">
+                                                <span class="item__link">
+                                                    <a href="@subsubitem.Url" title="title">@subsubitem.NavigationTitle</a>
+                                                </span>
+                                            </li>
+                                        }
+                                    </ul>
+                                }
+                            </li>
+                        }
+                    </ul>
+                }
+            </li>
+           
+        }
+        <li class="pull-right dropdown js-drop md-show">
+            <button class="btn btn-lang bg-primary js-btn-lang" title="Vælg land"><span>Vælg land</span></button>
+        </li>
+    </ul>
+</nav>

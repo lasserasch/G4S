@@ -1,0 +1,1 @@
+﻿11744 11:06:55 ERROR TypeError: evt.srcElement is undefined | SessionId-RequestId: 44lr5vcgolwdszook1wg3xpr-707d1665cd5648e7b355c100464ab3e4 | PageUrl: http://g4s.dev.local/sitecore/shell/Applications/Templates/Create template.aspx?fo={AC021AAC-01D3-430E-B2F7-2CBB27314922}&lang=en | UserAgent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0

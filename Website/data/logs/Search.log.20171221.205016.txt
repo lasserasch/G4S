@@ -1,0 +1,4 @@
+﻿7020 20:50:19 INFO  Warming and Caching your search indexes
+7020 20:50:19 INFO  /******* Warming Queries ********/
+7020 20:50:19 INFO  /*************************/
+11964 20:51:56 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin

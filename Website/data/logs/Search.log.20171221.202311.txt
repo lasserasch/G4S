@@ -1,0 +1,20 @@
+﻿2024 20:23:13 INFO  Warming and Caching your search indexes
+2024 20:23:13 INFO  /******* Warming Queries ********/
+2024 20:23:13 INFO  /*************************/
+12456 20:23:57 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:9f5a03b010c0462b8b98597bef2e5438en - Filter : 
+12456 20:23:58 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:9f5a03b010c0462b8b98597bef2e5438en +__is_running:1 - Filter : 
+12456 20:23:58 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*9f5a03b010c0462b8b98597bef2e5438*) - Filter : 
+7472 20:24:06 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+11272 20:24:23 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+5160 20:24:31 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:9f5a03b010c0462b8b98597bef2e5438en - Filter : 
+5160 20:24:31 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:9f5a03b010c0462b8b98597bef2e5438en +__is_running:1 - Filter : 
+5160 20:24:31 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*9f5a03b010c0462b8b98597bef2e5438*) - Filter : 
+7472 20:24:34 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+7472 20:24:55 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+5160 20:25:29 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:3b82d8998e584dfc8e4297418e2936c7)) - Filter : 
+5160 20:25:29 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): is_displayed_in_search_results:1 - Filter : +(_language:en*)
+6088 20:25:29 INFO  GetFacets : _templatename : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:3b82d8998e584dfc8e4297418e2936c7))
+6088 20:25:29 INFO  GetFacets : culture : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:3b82d8998e584dfc8e4297418e2936c7))
+6088 20:25:29 INFO  GetFacets : parsedcreatedby : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:3b82d8998e584dfc8e4297418e2936c7))
+6088 20:25:29 INFO  GetFacets : __smallcreateddate : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:3b82d8998e584dfc8e4297418e2936c7))
+14132 20:25:47 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin

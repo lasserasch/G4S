@@ -1,0 +1,29 @@
+﻿11212 22:34:59 INFO  [Recovery]: Setting default publish recovery strategy.
+11212 22:34:59 INFO  [Recovery]: Publish Recovery Enabled - False
+11212 22:34:59 INFO  [Recovery]: Publish Recovery Strategy - DatabasePublishRecoveryStrategy
+11212 22:34:59 INFO  Settings.Publishing.AutoScheduleSmartPublish:True
+11212 22:34:59 INFO  Settings.Publishing.CheckSecurity:False
+11212 22:34:59 INFO  Settings.Publishing.CompareRevisions:True
+11212 22:34:59 INFO  Settings.Publishing.DisableDatabaseCaches:False
+11212 22:34:59 INFO  Settings.Publishing.ExecuteInManagedThreadPool:False
+11212 22:34:59 INFO  Settings.Publishing.LogInterval:0
+11212 22:34:59 INFO  Settings.Publishing.MaxDegreeOfParallelism:1
+11212 22:34:59 INFO  Settings.Publishing.PublishDialogPollingInterval:500
+11212 22:34:59 INFO  Settings.Publishing.PublishEmptyItems:False
+11212 22:34:59 INFO  Settings.Publishing.PublishingInstance:LASSERASCH1D59-g4s
+11212 22:34:59 INFO  Settings.Publishing.RequireTargetDeleteRightWhenCheckingSecurity:True
+11212 22:34:59 INFO  Settings.Publishing.StatusUpdateInterval:00:00:02
+11212 22:34:59 INFO  Settings.Publishing.ThreadPriority:BelowNormal
+11212 22:34:59 INFO  Settings.Publishing.TimeBeforeStatusExpires:02:00:00
+10312 22:37:01 INFO  [Publishing]: Starting to process 1 publishing options
+10312 22:37:01 INFO  [PublishOptions]: root:null, language:en, targets:Internet, database:web, mode:Full, smart:True children:True, related:True
+12668 22:37:02 WARN  SitePublish detected. PublishContext was overridden with DisableDatabaseCaches=True.
+12668 22:37:02 INFO  Starting [Publishing] - AddItemsToQueue
+12668 22:37:02 INFO  Finished [Publishing] - AddItemsToQueue in 0 ms
+12668 22:37:02 INFO  Starting [Publishing] - ProcessQueue
+12668 22:38:44 INFO  Finished [Publishing] - ProcessQueue in 102361 ms
+12668 22:38:44 INFO  Publish Mode : Smart
+12668 22:38:44 INFO  Created : 16
+12668 22:38:44 INFO  Updated : 27
+12668 22:38:44 INFO  Deleted : 1
+12668 22:38:44 INFO  Skipped : 5143

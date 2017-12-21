@@ -9,6 +9,7 @@ namespace G4S.Modules.RichTextElement.Models
         public string Title { get; set; }
         public string Text { get; set; }
         public string ButtonClass { get; set; }
+        public string BackgroundClass { get; set; }
         public Glass.Mapper.Sc.Fields.Link Link { get; set; }
     }
 }

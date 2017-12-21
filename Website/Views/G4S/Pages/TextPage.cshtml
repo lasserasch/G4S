@@ -1,0 +1,177 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Website.Models.TextPage>
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html class="no-js" lang="dk">
+<head>
+    <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+    @Html.Sitecore().VisitorIdentification()
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="humans.txt" rel="author" />
+    <script src="/assets/js/modernizr.js"></script>
+
+</head>
+
+
+<body class="textpage">
+
+    <header class="js-header js-menu">
+        <div class="header__wrapper bg-white">
+            <div class="site-header bg-white">
+                <div class="container">
+
+                    <!-- MOBILE LANG SEL-->
+                    <button class="btn-square btn-globe bg-transparent grey grey-dark js-btn-lang sm-hide" title="Change country"><i class="icon icon-globe h4"></i></button>
+
+                    <a class="logo" href="/" title="Gå til forsiden">
+                        <img src="/assets/images/logo.svg" alt="g4s" width="80" height="47">
+                    </a>
+
+                    <div class="pull-right">
+                        <div class="search sm-show">
+                            <input type="text" class="small" placeholder="Søg her..." />
+                            <button class="btn-square bg-transparent" title="Søg"><i class="icon icon-search primary h5"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- MOBILE MENU BUTTON-->
+                    <button class="btn-square btn-menu bg-transparent js-btn-menu sm-hide" title="Open menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="menu bg-black">
+
+                <!-- MOBILE SEARCH-->
+                <div class="search sm-hide bg-grey bg-grey-dark">
+                    <input type="text" class="bg-grey bg-grey-dark white" placeholder="Søg her..." />
+                    <button class="btn-square bg-transparent" title="Søg"><i class="icon icon-search primary h5"></i></button>
+                </div>
+
+                <!-- Navigation -->
+                @Html.Sitecore().Rendering("{0F33BEF8-6B56-4BC7-8BFB-0153CBCEC172}")
+            </div>
+
+            @Html.Sitecore().Rendering("{84A66D5A-F379-4F9C-81F0-FF5633A2541D}", new { DataSource = "{79250CC5-07E5-4E39-B712-EB1E36DF6393}" })
+
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <article>
+            @Html.Sitecore().Placeholder("textpagetop")
+            @Html.Sitecore().Rendering("{FC08FD2C-8AFA-41B6-A638-3AC2DFE9385C}")
+
+            <div class="row">
+                <aside class="col col-xs-12 col-md-4">
+                    <div class="bg-grey bg-grey-200 visible-md-up">
+                        @Html.Sitecore().Rendering("{CC25392D-274A-4BD6-B41F-E9694075C2B4}")
+                    </div>
+   
+                    <div class="bg-primary">
+                        <div class="entry-content__grid text-center white">
+                            <h3>h3 title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eum necessitatibus nihil ratione tempora? Ab aliquam ea enim error expedita explicabo ipsam nam provident ut veniam. Eligendi esse itaque quibusdam?</p>
+                            <a href="#" class="btn bg-white" title="button title" target="_blank">Button</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-grey bg-grey-300">
+                        <div class="entry-content__grid text-center white">
+                            <h3>h3 title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eum necessitatibus nihil ratione tempora? Ab aliquam ea enim error expedita explicabo ipsam nam provident ut veniam. Eligendi esse itaque quibusdam?</p>
+                            <a href="#" class="btn" title="button title" target="_blank">Button</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-grey bg-grey-100">
+                        <div class="entry-content__grid text-center">
+                            <h3>h3 title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eum necessitatibus nihil ratione tempora? Ab aliquam ea enim error expedita explicabo ipsam nam provident ut veniam. Eligendi esse itaque quibusdam?</p>
+                            <a href="#" class="btn bg-grey bg-grey-dark" title="button title" target="_blank">Button</a>
+                        </div>
+                    </div>
+
+                </aside>
+
+                <section class="col col-xs-12 col-md-8 js-rte-content">
+                    @if (!IsInEditingMode)
+                    {
+                        <p class="h5 primary">@Editable(x => x.Label)</p>
+                    }
+                    else
+                    {
+                        @Editable(x => x.Label)
+                    }
+                    <h1 class="h2 mt0">@Model.Title</h1>
+                    @if (!IsInEditingMode)
+                    {
+                        <p>
+                            @Editable(x => x.FirstSectionContent)
+                        </p>
+                    }
+
+                    else
+                    {
+                        @Editable(x => x.FirstSectionContent)
+                    }
+
+                    @Html.Sitecore().Placeholder("textpagesection1")
+
+
+                    @if (!IsInEditingMode)
+                    {
+                        <p>
+                            @Editable(x => x.SecondSectionContent)
+                        </p>
+                    }
+
+                    else
+                    {
+                        @Editable(x => x.SecondSectionContent)
+                    }
+
+                    @Html.Sitecore().Placeholder("textpagesection2")
+
+
+
+                    @if (!IsInEditingMode)
+                    {
+                        <p>
+                            @Editable(x => x.ThirdSectionContent)
+                        </p>
+                    }
+
+                    else
+                    {
+                        @Editable(x => x.ThirdSectionContent)
+                    }
+
+                    @Html.Sitecore().Placeholder("textpagesection3")
+
+
+
+
+                </section>
+            </div>
+        </article>
+    </main>
+
+
+    @Html.Sitecore().Rendering("{3A90C2E8-F8A9-4EB6-9107-DA55066A5E9F}", new { DataSource = "{C60AA5DF-B286-4F74-9DC7-A2213F27ED33}" })
+
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+</body>
+</html>

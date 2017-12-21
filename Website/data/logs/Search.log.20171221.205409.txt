@@ -1,0 +1,35 @@
+﻿11212 20:54:11 INFO  Warming and Caching your search indexes
+11212 20:54:11 INFO  /******* Warming Queries ********/
+11212 20:54:11 INFO  /*************************/
+11540 20:55:39 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+8076 20:56:36 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+8228 20:56:42 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+11540 20:58:19 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+7100 21:00:43 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+8456 21:13:29 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:fad6f07e45f6447dbf790b2e5a1f23e9en - Filter : 
+8456 21:13:29 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:fad6f07e45f6447dbf790b2e5a1f23e9en +__is_running:1 - Filter : 
+8456 21:13:29 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*fad6f07e45f6447dbf790b2e5a1f23e9*) - Filter : 
+10396 21:21:21 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:43b9d8376960415187d18650ef30d556en - Filter : 
+10396 21:21:21 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:43b9d8376960415187d18650ef30d556en +__is_running:1 - Filter : 
+10396 21:21:21 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*43b9d8376960415187d18650ef30d556*) - Filter : 
+3908 21:21:29 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:43b9d8376960415187d18650ef30d556en - Filter : 
+3908 21:21:29 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:43b9d8376960415187d18650ef30d556en +__is_running:1 - Filter : 
+3908 21:21:29 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*43b9d8376960415187d18650ef30d556*) - Filter : 
+8940 21:24:13 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:0f33bef86b564bc78bfb0153cbcec172en - Filter : 
+8940 21:24:13 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:0f33bef86b564bc78bfb0153cbcec172en +__is_running:1 - Filter : 
+8940 21:24:13 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*0f33bef86b564bc78bfb0153cbcec172*) - Filter : 
+8376 21:24:16 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:d27780bbcd024586b50c8f10f4b8eb03en - Filter : 
+8376 21:24:16 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:d27780bbcd024586b50c8f10f4b8eb03en +__is_running:1 - Filter : 
+8376 21:24:16 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*d27780bbcd024586b50c8f10f4b8eb03*) - Filter : 
+14064 21:24:20 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:0f33bef86b564bc78bfb0153cbcec172en - Filter : 
+14064 21:24:20 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:0f33bef86b564bc78bfb0153cbcec172en +__is_running:1 - Filter : 
+14064 21:24:20 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*0f33bef86b564bc78bfb0153cbcec172*) - Filter : 
+8940 21:24:41 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:0f33bef86b564bc78bfb0153cbcec172en - Filter : 
+8940 21:24:41 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:0f33bef86b564bc78bfb0153cbcec172en +__is_running:1 - Filter : 
+8940 21:24:41 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*0f33bef86b564bc78bfb0153cbcec172*) - Filter : 
+3908 21:24:55 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:0f33bef86b564bc78bfb0153cbcec172en - Filter : 
+3908 21:24:55 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:0f33bef86b564bc78bfb0153cbcec172en +__is_running:1 - Filter : 
+3908 21:24:55 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*0f33bef86b564bc78bfb0153cbcec172*) - Filter : 
+3356 21:25:04 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:0f33bef86b564bc78bfb0153cbcec172en - Filter : 
+3356 21:25:04 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:0f33bef86b564bc78bfb0153cbcec172en +__is_running:1 - Filter : 
+3356 21:25:04 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*0f33bef86b564bc78bfb0153cbcec172*) - Filter : 

@@ -1,0 +1,35 @@
+﻿2144 20:26:49 INFO  Warming and Caching your search indexes
+2144 20:26:49 INFO  /******* Warming Queries ********/
+2144 20:26:49 INFO  /*************************/
+12544 20:27:55 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+5160 20:28:49 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+7824 20:29:15 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+7524 20:29:27 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+7824 20:29:57 INFO  GetFacets : _templatename : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:5a6869b24f1e4220af42be731f4c8415))
+7824 20:29:57 INFO  GetFacets : culture : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:5a6869b24f1e4220af42be731f4c8415))
+7824 20:29:57 INFO  GetFacets : parsedcreatedby : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:5a6869b24f1e4220af42be731f4c8415))
+7824 20:29:57 INFO  GetFacets : __smallcreateddate : +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:5a6869b24f1e4220af42be731f4c8415))
+10836 20:29:58 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): +_datasource:sitecore +(+_latestversion:1 +(+_path:737feee153bd4bfbb63f1ccc12e08da0 +_template:5a6869b24f1e4220af42be731f4c8415)) - Filter : 
+10836 20:29:58 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): is_displayed_in_search_results:1 - Filter : +(_language:en*)
+6088 20:30:09 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+10836 20:30:20 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+12724 20:30:26 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+10184 20:30:42 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+11272 20:31:20 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+7524 20:31:41 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+7524 20:31:58 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+5160 20:32:19 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:fad6f07e45f6447dbf790b2e5a1f23e9en - Filter : 
+5160 20:32:19 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:fad6f07e45f6447dbf790b2e5a1f23e9en +__is_running:1 - Filter : 
+5160 20:32:19 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*fad6f07e45f6447dbf790b2e5a1f23e9*) - Filter : 
+6088 20:32:53 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:9f5a03b010c0462b8b98597bef2e5438en - Filter : 
+6088 20:32:53 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:9f5a03b010c0462b8b98597bef2e5438en +__is_running:1 - Filter : 
+6088 20:32:53 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*9f5a03b010c0462b8b98597bef2e5438*) - Filter : 
+14132 20:33:00 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): host:9f5a03b010c0462b8b98597bef2e5438en - Filter : 
+14132 20:33:00 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +host:9f5a03b010c0462b8b98597bef2e5438en +__is_running:1 - Filter : 
+14132 20:33:00 INFO  ExecuteQueryAgainstLucene (sitecore_testing_index): +__is_running:1 +SpanWildcardQuery(datasourceitems:*9f5a03b010c0462b8b98597bef2e5438*) - Filter : 
+12724 20:33:04 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+11108 20:33:23 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+12724 20:33:37 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+10184 20:33:43 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+10184 20:34:14 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin
+10836 20:35:56 INFO  ExecuteQueryAgainstLucene (sitecore_master_index): *:* - Filter : __lock:sitecoreadmin

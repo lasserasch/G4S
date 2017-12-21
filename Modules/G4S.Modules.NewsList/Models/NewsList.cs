@@ -11,5 +11,6 @@ namespace G4S.Modules.NewsList.Models
         public virtual IEnumerable<NewsItem> NewsItems { get; set; }
         public Guid NewsRoot { get; set; }
         public string Title { get; set; }
+        public string ReadNewsLinkText { get; set; }
     }
 }

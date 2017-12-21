@@ -1,0 +1,17 @@
+﻿13408 20:43:34 INFO  [Recovery]: Setting default publish recovery strategy.
+13408 20:43:34 INFO  [Recovery]: Publish Recovery Enabled - False
+13408 20:43:34 INFO  [Recovery]: Publish Recovery Strategy - DatabasePublishRecoveryStrategy
+13408 20:43:34 INFO  Settings.Publishing.AutoScheduleSmartPublish:True
+13408 20:43:34 INFO  Settings.Publishing.CheckSecurity:False
+13408 20:43:34 INFO  Settings.Publishing.CompareRevisions:True
+13408 20:43:34 INFO  Settings.Publishing.DisableDatabaseCaches:False
+13408 20:43:34 INFO  Settings.Publishing.ExecuteInManagedThreadPool:False
+13408 20:43:34 INFO  Settings.Publishing.LogInterval:0
+13408 20:43:34 INFO  Settings.Publishing.MaxDegreeOfParallelism:1
+13408 20:43:34 INFO  Settings.Publishing.PublishDialogPollingInterval:500
+13408 20:43:34 INFO  Settings.Publishing.PublishEmptyItems:False
+13408 20:43:34 INFO  Settings.Publishing.PublishingInstance:LASSERASCH1D59-g4s
+13408 20:43:34 INFO  Settings.Publishing.RequireTargetDeleteRightWhenCheckingSecurity:True
+13408 20:43:34 INFO  Settings.Publishing.StatusUpdateInterval:00:00:02
+13408 20:43:34 INFO  Settings.Publishing.ThreadPriority:BelowNormal
+13408 20:43:34 INFO  Settings.Publishing.TimeBeforeStatusExpires:02:00:00

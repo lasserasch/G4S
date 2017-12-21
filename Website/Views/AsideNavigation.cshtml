@@ -1,0 +1,55 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.Navigation.Models.Navigation>
+
+
+<!--
+    NOTES:
+    add is-current class to current
+-->
+
+<div class="aside-navigation">
+    <ul class="js-aside-navigation" role="navigation" aria-label="Secondary Navigation">
+        @foreach (var item in Model.NavigationItems)
+        {
+            <li class="item @item.CssClass">
+                <span class="item__link">
+                    <a href="@item.Url" title="title">@item.NavigationTitle</a>
+
+                    @if (item.NavigationItems != null && item.NavigationItems.Any())
+                    {
+                        <button class="js-toggle"><i class="icon icon-arrow-down"></i></button>
+                    }
+                </span>
+                @if (item.NavigationItems != null && item.NavigationItems.Any())
+                {
+                    <ul class="item__sublevel">
+                        @foreach (var subitem in item.NavigationItems)
+                        {
+                            <li class="item @subitem.CssClass">
+                                <span class="item__link">
+                                    <a href="@subitem.Url" title="title">@subitem.NavigationTitle</a>
+                                    @if (subitem.NavigationItems != null && subitem.NavigationItems.Any())
+                                    {
+                                        <button class="js-toggle"><i class="icon icon-arrow-down"></i></button>
+                                    }
+                                </span>
+                                @if (subitem.NavigationItems != null && subitem.NavigationItems.Any())
+                                {
+                                    <ul class="item__sublevel">
+                                        @foreach (var subsubitem in subitem.NavigationItems)
+                                        {
+                                            <li class="item @subsubitem.CssClass">
+                                                <span class="item__link">
+                                                    <a href="@subsubitem.Url" title="title">@subsubitem.NavigationTitle</a>
+                                                </span>
+                                            </li>
+                                        }
+                                    </ul>
+                                }
+                            </li>
+                        }
+                    </ul>
+                }
+            </li>
+        }
+    </ul>
+</div>

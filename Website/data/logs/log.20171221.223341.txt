@@ -1,0 +1,1908 @@
+﻿7020 22:33:42 INFO  HttpModule is being initialized
+7020 22:33:42 INFO  
+7020 22:33:42 INFO  **********************************************************************
+7020 22:33:42 INFO  **********************************************************************
+7020 22:33:42 INFO  
+7020 22:33:42 INFO  xDB is enabled.
+7020 22:33:42 INFO  
+7020 22:33:42 INFO  Tracking is enabled.
+7020 22:33:42 INFO  
+7020 22:33:42 INFO  Valid xDB license is present.
+7020 22:33:42 INFO  
+7020 22:33:42 INFO  **********************************************************************
+7020 22:33:42 INFO  **********************************************************************
+7020 22:33:42 INFO  Heartbeat - Initializing
+7020 22:33:42 INFO  Heartbeat - Interval set to: 00:00:02
+7020 22:33:42 INFO  Heartbeat - Worker thread started
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.SequenceAnalyzer.Data.ITreeStorage
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Data.Storage.ITreeDefinitionStorage
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Contracts.ITreeDefinitionService
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Contracts.IMapItemRepository
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Contracts.IMapStatusService
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Contracts.IConfiguration
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.SequenceAnalyzer.Configuration.IPruningConfig
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Contracts.IContactReader
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Localization.IResourceManager
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Data.Caching.ICache
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Contracts.ITreeProvider
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Data.SitecoreData.IItemRepository
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Contracts.IMapItemDeploymentManager
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Data.Storage.ITreeStorageManager
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterType) Sitecore.PathAnalyzer.Rules.IRulesValidator
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterModelsForSerialization) Setting serialization info
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterModelsForSerialization) Type 'Sitecore.PathAnalyzer.Data.Models.ExperienceNode, Sitecore.PathAnalyzer' was registered succesfully.
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterModelsForSerialization) Type 'Sitecore.PathAnalyzer.Data.Models.ExperienceTree, Sitecore.PathAnalyzer' was registered succesfully.
+7020 22:33:42 INFO  [Path Analyzer](ApplicationContainer.RegisterModelsForSerialization) Type 'Sitecore.PathAnalyzer.Data.Models.PageNode, Sitecore.PathAnalyzer' was registered succesfully.
+7020 22:33:42 INFO  MemoryMonitor initialized. Threshold: 2 GB. Interval: 00:00:05
+7020 22:33:42 INFO  Cache created: 'rules' (max size: 800KB, running total: 800KB)
+7020 22:33:42 INFO  Cache created: 'DeviceItemsCache' (max size: 50MB, running total: 50MB)
+7020 22:33:42 INFO  Cache created: 'core[data]' (max size: 100MB, running total: 150MB)
+7020 22:33:42 INFO  Cache created: 'core[items]' (max size: 50MB, running total: 200MB)
+7020 22:33:42 INFO  Cache created: 'core[paths]' (max size: 2MB, running total: 203MB)
+7020 22:33:42 INFO  Cache created: 'core[standardValues]' (max size: 2MB, running total: 205MB)
+7020 22:33:42 INFO  Cache created: 'core[languageFallbackObsolete]' (max size: 20MB, running total: 225MB)
+7020 22:33:42 INFO  Cache created: 'core[languageFallback]' (max size: 20MB, running total: 245MB)
+7020 22:33:42 INFO  Cache created: 'core[isLanguageFallbackValid]' (max size: 100KB, running total: 245MB)
+7020 22:33:42 INFO  Cache created: 'core[isLanguageFallbackValidObsolete]' (max size: 100KB, running total: 245MB)
+ManagedPoolThread #4 22:33:42 INFO  Trying to load XML configuration /App_Config/Security/Domains.config
+7020 22:33:42 INFO  Cache created: 'core[itempaths]' (max size: 50MB, running total: 295MB)
+7020 22:33:42 INFO  Cache created: 'core[blobIDs]' (max size: 5MB, running total: 300MB)
+ManagedPoolThread #4 22:33:42 INFO  Sitecore started
+**********************************************************************
+Sitecore.NET 9.0.0 (rev. 171002)
+**********************************************************************
+
+c:\dev\g4s\website\bin\antlr3.runtime.dll (Antlr3.Runtime)
+c:\dev\g4s\website\bin\castle.core.dll (Castle Core, Castle Core, including DynamicProxy, Logging Abstractions and DictionaryAdapter, 4.2.1)
+c:\dev\g4s\website\bin\componentart.web.ui.dll ()
+c:\dev\g4s\website\bin\crispycode.glassmapper.sc.dll (CrispyCode.GlassMapper.SC, Additional Glass.Mapper fluent extensions for Sitecore)
+c:\dev\g4s\website\bin\ecmascript.net.dll (Modified version of the EcmaScript.NET assembly)
+c:\dev\g4s\website\bin\fiftyone.foundation.dll (51degrees - Foundation, 51degrees - Foundation Open Source)
+c:\dev\g4s\website\bin\g4s.configuration.core.dll (G4S.Configuration.Core, Package Description, 1.0.0)
+c:\dev\g4s\website\bin\g4s.foundation.dictionary.dll (G4S.Foundation.Dictionary)
+c:\dev\g4s\website\bin\g4s.foundation.modulebase.dll (ModuleBase)
+c:\dev\g4s\website\bin\g4s.modules.breadcrumb.dll (G4S.Modules.Breadcrumb)
+c:\dev\g4s\website\bin\g4s.modules.comparisonchart.dll (G4S.Modules.ComparisonChart)
+c:\dev\g4s\website\bin\g4s.modules.countryselector.dll (G4S.Modules.CountrySelector)
+c:\dev\g4s\website\bin\g4s.modules.featuregrid.dll (G4S.Modules.FeatureGrid)
+c:\dev\g4s\website\bin\g4s.modules.footer.dll (G4S.Modules.Footer)
+c:\dev\g4s\website\bin\g4s.modules.formcontainer.dll (G4S.Modules.FormContainer)
+c:\dev\g4s\website\bin\g4s.modules.heroslider.dll (HeroSlider)
+c:\dev\g4s\website\bin\g4s.modules.jobs.dll (G4S.Modules.Jobs)
+c:\dev\g4s\website\bin\g4s.modules.navigation.dll (G4S.Modules.Navigation)
+c:\dev\g4s\website\bin\g4s.modules.newslist.dll (G4S.Modules.NewsList)
+c:\dev\g4s\website\bin\g4s.modules.productlist.dll (G4S.Modules.ProductList)
+c:\dev\g4s\website\bin\g4s.modules.richtextelement.dll (G4S.Modules.RichTextElement)
+c:\dev\g4s\website\bin\g4s.modules.rowoneelement.dll (G4S.Modules.RowOneElement)
+c:\dev\g4s\website\bin\g4s.modules.segmentpicker.dll (G4S.Modules.SegmentPicker)
+c:\dev\g4s\website\bin\g4s.modules.service.dll (G4S.Modules.Service)
+c:\dev\g4s\website\bin\g4s.modules.splitter.dll (G4S.Modules.RowTwoElements)
+c:\dev\g4s\website\bin\g4s.modules.text.dll (G4S.Modules.Text)
+c:\dev\g4s\website\bin\g4s.modules.video.dll (G4S.Modules.Video)
+c:\dev\g4s\website\bin\g4s.modules.youtubeplayer.dll (G4S.Modules.YoutubePlayer)
+c:\dev\g4s\website\bin\glass.mapper.dll (Glass.Mapper, 4.4.0.199)
+c:\dev\g4s\website\bin\glass.mapper.sc.dll (Glass.Mapper.Sc, 4.4.0.199)
+c:\dev\g4s\website\bin\glass.mapper.sc.mvc.dll (Glass.Mapper.Sc.Mvc)
+c:\dev\g4s\website\bin\htmlagilitypack.dll (Html Agility Pack, 1.4.9.5)
+c:\dev\g4s\website\bin\icsharpcode.sharpziplib.dll (#ZipLibrary, A free C# compression library, 0.86.0)
+c:\dev\g4s\website\bin\iesi.collections.dll (Iesi.Collections, Enhanced Collections for .NET.  Code was published at http://www.codeproject.com/csharp/sets.asp, 1.0)
+c:\dev\g4s\website\bin\ithit.webdav.server.dll (WebDav Server .Net v2, IT Hit WebDAV Server .Net v2)
+c:\dev\g4s\website\bin\lucene.net.contrib.analyzers.dll (Lucene.Net.Contrib.Analyzers)
+c:\dev\g4s\website\bin\lucene.net.contrib.core.dll (Lucene.Net.Contrib.Core, Contributions to the Lucene.Net core library)
+c:\dev\g4s\website\bin\lucene.net.contrib.fastvectorhighlighter.dll (Lucene.Net.Contrib.FastVectorHighlighter, FastVectorHighlighter for Lucene.Net)
+c:\dev\g4s\website\bin\lucene.net.contrib.highlighter.dll (Lucene.Net.Contrib.Highlighter, The Apache Software Foundation Lucene.Net a full-text search engine library, 2.3.2)
+c:\dev\g4s\website\bin\lucene.net.contrib.memory.dll (Contrib.Memory)
+c:\dev\g4s\website\bin\lucene.net.contrib.queries.dll (Lucene.Net.Contrib.Queries)
+c:\dev\g4s\website\bin\lucene.net.contrib.regex.dll (Lucene.Net.Contrib.Regex)
+c:\dev\g4s\website\bin\lucene.net.contrib.simplefacetedsearch.dll (Lucene.Net.SimpleFacetedSearch, SimpleFacetedSearch for Lucene.Net)
+c:\dev\g4s\website\bin\lucene.net.contrib.snowball.dll (Lucene.Net.Contrib.Snowball, The Apache Software Foundation Lucene.Net a full-text search engine library, 2.0)
+c:\dev\g4s\website\bin\lucene.net.contrib.spellchecker.dll (SpellChecker.Net, The Apache Software Foundation Lucene.Net a full-text search engine library, 3.0.3)
+c:\dev\g4s\website\bin\lucene.net.dll (Lucene.Net, The Apache Software Foundation Lucene.Net a full-text search engine library, 3.0.3)
+c:\dev\g4s\website\bin\markdownsharp.dll (Markdown processor)
+c:\dev\g4s\website\bin\microsoft.analysisservices.adomdclient.dll (Microsoft SQL Server, ADOMD.NET, 10.50.1600.1)
+c:\dev\g4s\website\bin\microsoft.aspnet.identity.core.dll (Microsoft.AspNet.Identity.Core)
+c:\dev\g4s\website\bin\microsoft.aspnet.identity.owin.dll (Microsoft.AspNet.Identity.Owin)
+c:\dev\g4s\website\bin\microsoft.aspnet.webapi.extensions.compression.server.dll (Microsoft.AspNet.WebApi.Extensions.Compression.Server, Module for ASP.NET WebApi that enables GZip and Deflate support for incoming and outgoing requests)
+c:\dev\g4s\website\bin\microsoft.codedom.providers.dotnetcompilerplatform.dll (Microsoft.CodeDom.Providers.DotNetCompilerPlatform, 1.0.8-41016)
+c:\dev\g4s\website\bin\microsoft.dotnet.internalabstractions.dll (Abstractions for making code that uses file system and environment testable, 1.0.0)
+c:\dev\g4s\website\bin\microsoft.extensions.commandlineutils.dll (Microsoft .NET Extensions, Command-line parsing API. Commonly used types:
+Microsoft.Extensions.CommandLineUtils.CommandLineApplication
+Microsoft.Extensions.CommandLineUtils.CommandOption, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.abstractions.dll (Microsoft .NET Extensions, Abstractions of key-value pair based configuration.
+Commonly used types:
+Microsoft.Extensions.Configuration.IConfiguration
+Microsoft.Extensions.Configuration.IConfigurationBuilder
+Microsoft.Extensions.Configuration.IConfigurationProvider
+Microsoft.Extensions.Configuration.IConfigurationRoot
+Microsoft.Extensions.Configuration.IConfigurationSection, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.binder.dll (Microsoft .NET Extensions, Functionality to bind an object to data in configuration providers for Microsoft.Extensions.Configuration, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.commandline.dll (Microsoft .NET Extensions, Command line configuration provider implementation for Microsoft.Extensions.Configuration, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.dll (Microsoft .NET Extensions, Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration. Includes the memory configuration provider, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.environmentvariables.dll (Microsoft .NET Extensions, Environment variables configuration provider implementation for Microsoft.Extensions.Configuration, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.fileextensions.dll (Microsoft .NET Extensions, Extension methods for configuring file-based configuration providers for Microsoft.Extensions.Configuration, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.ini.dll (Microsoft .NET Extensions, INI configuration provider implementation for Microsoft.Extensions.Configuration, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.json.dll (Microsoft .NET Extensions, JSON configuration provider implementation for Microsoft.Extensions.Configuration, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.configuration.xml.dll (Microsoft .NET Extensions, XML configuration provider implementation for Microsoft.Extensions.Configuration, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.dependencyinjection.abstractions.dll (Microsoft .NET Extensions, Abstractions for dependency injection.
+Commonly used types:
+Microsoft.Extensions.DependencyInjection.IServiceCollection
+Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.dependencyinjection.dll (Microsoft .NET Extensions, Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.dependencymodel.dll (Abstractions for reading `.deps` files, 1.0.0)
+c:\dev\g4s\website\bin\microsoft.extensions.fileproviders.abstractions.dll (Microsoft .NET Extensions, Abstractions of files and directories.
+Commonly used types:
+Microsoft.Extensions.FileProviders.IDirectoryContents
+Microsoft.Extensions.FileProviders.IFileInfo
+Microsoft.Extensions.FileProviders.IFileProvider, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.fileproviders.physical.dll (Microsoft .NET Extensions, File provider for physical files for Microsoft.Extensions.FileProviders, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.filesystemglobbing.dll (Microsoft .NET Extensions, File system globbing to find files matching a specified pattern, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.logging.abstractions.dll (Microsoft .NET Extensions, Logging abstractions for Microsoft.Extensions.Logging.
+Commonly used types:
+Microsoft.Extensions.Logging.ILogger
+Microsoft.Extensions.Logging.ILoggerFactory
+Microsoft.Extensions.Logging.ILogger<TCategoryName>
+Microsoft.Extensions.Logging.LogLevel
+Microsoft.Extensions.Logging. 
+Microsoft.Extensions.Logging, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.logging.dll (Microsoft .NET Extensions, Logging infrastructure default implementation for Microsoft.Extensions.Logging, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.options.dll (Microsoft .NET Extensions, Provides a strongly typed way of specifying and accessing settings using dependency injection, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.platformabstractions.dll (Microsoft .NET Extensions, Abstractions that unify behavior and API across .NET Framework, .NET Core and Mono, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.extensions.primitives.dll (Microsoft .NET Extensions, Primitives shared by framework extensions. Commonly used types include:
+Microsoft.Extensions.Primitives.IChangeToken
+Microsoft.Extensions.Primitives.StringValues
+Microsoft.Extensions.Primitives.StringSegment, 1.0.0-rtm-21431)
+c:\dev\g4s\website\bin\microsoft.identitymodel.protocol.extensions.dll (Microsoft.IdentityModel.Protocol.Extensions, Contains classes which extend the .NET Framework 4.5 with base constructs from the OpenId Connect and WS-Federation protocols, 40306.1554.8746734617f2cfb525084190b6b1b1a0243aaf3e)
+c:\dev\g4s\website\bin\microsoft.odata.core.dll (Microsoft® .NET Framework, Microsoft.OData.Core.dll, 7.2.0.0)
+c:\dev\g4s\website\bin\microsoft.odata.edm.dll (Microsoft® .NET Framework, Microsoft.OData.Edm.dll, 7.2.0.0)
+c:\dev\g4s\website\bin\microsoft.owin.dll (Microsoft OWIN, 3.1.0)
+c:\dev\g4s\website\bin\microsoft.owin.host.systemweb.dll (Microsoft OWIN, 3.1.0)
+c:\dev\g4s\website\bin\microsoft.owin.security.activedirectory.dll (Microsoft OWIN, 3.1.0)
+c:\dev\g4s\website\bin\microsoft.owin.security.cookies.dll (Microsoft OWIN, 3.1.0)
+c:\dev\g4s\website\bin\microsoft.owin.security.dll (Microsoft OWIN, 3.1.0)
+c:\dev\g4s\website\bin\microsoft.owin.security.jwt.dll (Microsoft OWIN, 3.1.0)
+c:\dev\g4s\website\bin\microsoft.owin.security.oauth.dll (Microsoft OWIN, 3.1.0)
+c:\dev\g4s\website\bin\microsoft.practices.enterpriselibrary.common.dll (Microsoft Enterprise Library, Enterprise Library Shared Library)
+c:\dev\g4s\website\bin\microsoft.practices.enterpriselibrary.transientfaulthandling.caching.dll (Microsoft Enterprise Library Integration Pack for Windows Azure, Enterprise Library Transient Fault Handling Application Block)
+c:\dev\g4s\website\bin\microsoft.practices.enterpriselibrary.transientfaulthandling.configuration.dll (Microsoft Enterprise Library Integration Pack for Windows Azure, Enterprise Library Transient Fault Handling Application Block)
+c:\dev\g4s\website\bin\microsoft.practices.enterpriselibrary.transientfaulthandling.data.dll (Microsoft Enterprise Library Integration Pack for Windows Azure, Enterprise Library Transient Fault Handling Application Block)
+c:\dev\g4s\website\bin\microsoft.practices.enterpriselibrary.transientfaulthandling.dll (Enterprise Library Transient Fault Handling Application Block, Enterprise Library Transient Fault Handling Application Block)
+c:\dev\g4s\website\bin\microsoft.practices.enterpriselibrary.transientfaulthandling.servicebus.dll (Microsoft Enterprise Library Integration Pack for Windows Azure, Enterprise Library Transient Fault Handling Application Block)
+c:\dev\g4s\website\bin\microsoft.practices.enterpriselibrary.transientfaulthandling.windowsazure.storage.dll (Microsoft Enterprise Library Integration Pack for Windows Azure, Enterprise Library Transient Fault Handling Application Block)
+c:\dev\g4s\website\bin\microsoft.practices.servicelocation.dll (Microsoft.Practices.ServiceLocation, A simple facade that provides insulation from specific IoC containers)
+c:\dev\g4s\website\bin\microsoft.spatial.dll (Microsoft® .NET Framework, Microsoft.Spatial.dll, 7.2.0.0)
+c:\dev\g4s\website\bin\microsoft.web.infrastructure.dll (Microsoft ASP.Net WebPages)
+c:\dev\g4s\website\bin\microsoft.win32.primitives.dll (Microsoft® .NET Framework, Microsoft.Win32.Primitives, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\mongodb.bson.dll (MongoDB.Bson, Official MongoDB supported BSON library. See http://www.mongodb.org/display/DOCS/CSharp+Language+Center for more details, 2.4.4+Branch.master.Sha.275fd1536fc7de3c953af430c4763786f222b9fa)
+c:\dev\g4s\website\bin\mongodb.driver.core.dll (MongoDB.Driver.Core, Official MongoDB supported Driver Core library. See http://www.mongodb.org/display/DOCS/CSharp+Language+Center for more details, 2.4.4+Branch.master.Sha.275fd1536fc7de3c953af430c4763786f222b9fa)
+c:\dev\g4s\website\bin\mongodb.driver.dll (MongoDB.Driver, Official MongoDB supported driver for MongoDB.  See http://www.mongodb.org/display/DOCS/CSharp+Language+Center for more details, 2.4.4+Branch.master.Sha.275fd1536fc7de3c953af430c4763786f222b9fa)
+c:\dev\g4s\website\bin\mongodb.driver.legacy.dll (MongoDB.Driver.Legacy, Legacy MongoDB supported driver for MongoDB.  See http://www.mongodb.org/display/DOCS/CSharp+Language+Center for more details, 2.4.4+Branch.master.Sha.275fd1536fc7de3c953af430c4763786f222b9fa)
+c:\dev\g4s\website\bin\mvp.xml.dll (MVP XML Library)
+c:\dev\g4s\website\bin\netstandard.dll (Microsoft® .NET Framework, netstandard, 4.6.25514.4)
+c:\dev\g4s\website\bin\newtonsoft.json.dll (Json.NET, Json.NET is a popular high-performance JSON framework for .NET)
+c:\dev\g4s\website\bin\owin.dll (OWIN IAppBuilder startup interface)
+c:\dev\g4s\website\bin\protobuf-net.dll (protobuf-net, Protocol Buffers for .NET)
+c:\dev\g4s\website\bin\razorgenerator.mvc.dll (RazorGenerator, MVC View engine that supports precompiled Razor views, 2.4.9)
+c:\dev\g4s\website\bin\remotion.linq.dll (re-motion Framework: re-linq (www.re-motion.org), re-linq Frontend: A foundation for parsing LINQ expression trees and generating queries in SQL or other languages.
+Key features:
+- Transforms expression trees into abstract syntax trees resemblying LINQ query expressions (from ... select syntax)
+- Simplifies many aspects of this tree (sub queries, transparent identifieres, pre-evaluation ...)
+- Provides basic infrastructure for backend development (e.g. SQL generation) 
+- Provides a framework for user-defined query extensions and transformations, 2.1.1+Release.Commit-a1f8cde8c1d0a0e99e7d4d44e192994a4cf8c1d0)
+c:\dev\g4s\website\bin\sitecore.abstractions.dll (Sitecore, 11.1.0-r00369)
+c:\dev\g4s\website\bin\sitecore.analytics.aggregation.dll (Sitecore xDB, 11.40.0-r00397)
+c:\dev\g4s\website\bin\sitecore.analytics.core.dll (Sitecore xDB, 11.40.0-r00397)
+c:\dev\g4s\website\bin\sitecore.analytics.dataaccess.dll (Sitecore xDB Tracking, 11.18.0-r00110)
+c:\dev\g4s\website\bin\sitecore.analytics.dll (Sitecore xDB Tracking, 11.18.0-r00110)
+c:\dev\g4s\website\bin\sitecore.analytics.model.dll (Sitecore xDB, 11.40.0-r00397)
+c:\dev\g4s\website\bin\sitecore.analytics.omnichannel.dll (Sitecore xDB Tracking, 11.18.0-r00110)
+c:\dev\g4s\website\bin\sitecore.analytics.processing.dll (Sitecore xDB, 11.40.0-r00397)
+c:\dev\g4s\website\bin\sitecore.analytics.robotdetection.dll (Sitecore Robot Detection, 11.6.0-r00050)
+c:\dev\g4s\website\bin\sitecore.analytics.sql.dll (Sitecore xDB, 11.40.0-r00397)
+c:\dev\g4s\website\bin\sitecore.analytics.xconnect.dll (Sitecore xDB Tracking, 11.18.0-r00110)
+c:\dev\g4s\website\bin\sitecore.apps.loader.dll (Sitecore AppCenter Client, 2.1.0-r00015)
+c:\dev\g4s\website\bin\sitecore.buckets.client.dll (Sitecore Buckets, The assembly can be used to have Sitecore queries driven via a query, 3.1.0-r00056)
+c:\dev\g4s\website\bin\sitecore.buckets.dll (Sitecore Buckets, The assembly can be used to have Sitecore queries driven via search providers, 3.1.0-r00056)
+c:\dev\g4s\website\bin\sitecore.ces.devicedetection.dll (Sitecore DeviceDetection Client, 2.1.0-r00073)
+c:\dev\g4s\website\bin\sitecore.ces.devicedetection.rules.dll (Sitecore DeviceDetection Client, 2.1.0-r00073)
+c:\dev\g4s\website\bin\sitecore.ces.dll (Sitecore Contact Enrichment Services Client, 2.1.0-r00046)
+c:\dev\g4s\website\bin\sitecore.ces.geoip.dll (Sitecore IP Geolocation Service Client, 2.1.0-r00146)
+c:\dev\g4s\website\bin\sitecore.ces.geoip.ipfiltering.dll (Sitecore IP Geolocation Service IPFiltering API, 2.1.0-r00013)
+c:\dev\g4s\website\bin\sitecore.ces.geoip.legacylocation.dll (Sitecore IP Geolocation Service Client, 2.1.0-r00146)
+c:\dev\g4s\website\bin\sitecore.cintel.client.dll (Sitecore Experience Profile, 2.1.0-r00174)
+c:\dev\g4s\website\bin\sitecore.cintel.dll (Sitecore Experience Profile, 2.1.0-r00174)
+c:\dev\g4s\website\bin\sitecore.client.dll (Sitecore, Sitecore Client Application, 11.1.0-r00369)
+c:\dev\g4s\website\bin\sitecore.client.licenseoptions.dll (Sitecore Speak Applications, 2.1.0-r00036)
+c:\dev\g4s\website\bin\sitecore.cloud.nexus.dll (Sitecore Cloud Nexus, 3.0.1-r00005)
+c:\dev\g4s\website\bin\sitecore.content.services.dll (Sitecore Services Client, Sitecore Services, 2.1.0-r00481)
+c:\dev\g4s\website\bin\sitecore.contentsearch.azure.dll (Sitecore.ContentSearch.Azure, 2.1.0-r00182)
+c:\dev\g4s\website\bin\sitecore.contentsearch.client.dll (Sitecore Content Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contentsearch.data.dll (Sitecore Content Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contentsearch.dll (Sitecore Content Search, Sitecore CMS Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contentsearch.linq.dll (Sitecore Content Search, Sitecore CMS Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contentsearch.linq.lucene.dll (Sitecore Content Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contentsearch.linq.solr.dll (Sitecore Content Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contentsearch.luceneprovider.dll (Sitecore Content Search, Sitecore CMS Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contentsearch.solrnetextension.dll (Sitecore Content Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contentsearch.solrprovider.dll (Sitecore Content Search, 3.1.0-r00144)
+c:\dev\g4s\website\bin\sitecore.contenttesting.dll (Sitecore ContentTesting, 11.1.0-r02247)
+c:\dev\g4s\website\bin\sitecore.contenttesting.intelligence.dll (Sitecore ContentTesting, 11.1.0-r02247)
+c:\dev\g4s\website\bin\sitecore.contenttesting.model.dll (Sitecore ContentTesting, 11.1.0-r02247)
+c:\dev\g4s\website\bin\sitecore.contenttesting.mvc.dll (Sitecore ContentTesting, 11.1.0-r02247)
+c:\dev\g4s\website\bin\sitecore.controlpanel.dll (Sitecore Speak Applications, 2.1.0-r00036)
+c:\dev\g4s\website\bin\sitecore.experienceanalytics.aggregation.dll (Sitecore Experience Analytics, 3.1.0-r01104)
+c:\dev\g4s\website\bin\sitecore.experienceanalytics.api.dll (Sitecore Experience Analytics, 3.1.0-r01104)
+c:\dev\g4s\website\bin\sitecore.experienceanalytics.client.dll (Sitecore Experience Analytics, 3.1.0-r01104)
+c:\dev\g4s\website\bin\sitecore.experienceanalytics.core.dll (Sitecore Experience Analytics, 3.1.0-r01104)
+c:\dev\g4s\website\bin\sitecore.experienceanalytics.dll (Sitecore Experience Analytics, 3.1.0-r01104)
+c:\dev\g4s\website\bin\sitecore.experienceanalytics.reaggregation.dll (Sitecore Experience Analytics, 3.1.0-r01104)
+c:\dev\g4s\website\bin\sitecore.experienceanalytics.reduce.dll (Sitecore Experience Analytics, 3.1.0-r01104)
+c:\dev\g4s\website\bin\sitecore.experiencecontentmanagement.administration.dll (Sitecore ExperienceContentManagement Administration, 2.1.0-r00208)
+c:\dev\g4s\website\bin\sitecore.experienceeditor.dll (Sitecore ExperienceEditor, 4.1.0-r00860)
+c:\dev\g4s\website\bin\sitecore.experienceeditor.speak.dll (Sitecore ExperienceEditor, 4.1.0-r00860)
+c:\dev\g4s\website\bin\sitecore.experienceeditor.speak.ribbon.dll (Sitecore ExperienceEditor, 4.1.0-r00860)
+c:\dev\g4s\website\bin\sitecore.experienceexplorer.analytics.dll (Sitecore ExperienceExplorer , 3.0.0-r00224)
+c:\dev\g4s\website\bin\sitecore.experienceexplorer.core.dll (Sitecore ExperienceExplorer , 3.0.0-r00224)
+c:\dev\g4s\website\bin\sitecore.experienceexplorer.dll (Sitecore ExperienceExplorer , 3.0.0-r00224)
+c:\dev\g4s\website\bin\sitecore.experienceexplorer.web.dll (Sitecore ExperienceExplorer , 3.0.0-r00224)
+c:\dev\g4s\website\bin\sitecore.experienceforms.analytics.dll (Sitecore Experience Forms, 1.1.0-r00276)
+c:\dev\g4s\website\bin\sitecore.experienceforms.client.dll (Sitecore Experience Forms, 1.1.0-r00276)
+c:\dev\g4s\website\bin\sitecore.experienceforms.data.sqlserver.dll (Sitecore Experience Forms, 1.1.0-r00276)
+c:\dev\g4s\website\bin\sitecore.experienceforms.dll (Sitecore Experience Forms, 1.1.0-r00276)
+c:\dev\g4s\website\bin\sitecore.experienceforms.mvc.dll (Sitecore Experience Forms, 1.1.0-r00276)
+c:\dev\g4s\website\bin\sitecore.experienceforms.submitactions.dll (Sitecore Experience Forms, 1.1.0-r00276)
+c:\dev\g4s\website\bin\sitecore.framework.common.abstractions.dll (Sitecore Framework Common, 1.1.12)
+c:\dev\g4s\website\bin\sitecore.framework.common.dll (Sitecore Framework Common, 1.1.12)
+c:\dev\g4s\website\bin\sitecore.framework.common.extensions.dll (Sitecore Framework Common, 1.1.12)
+c:\dev\g4s\website\bin\sitecore.framework.common.wildcardmatch.dll (Sitecore Framework Common, 1.1.12)
+c:\dev\g4s\website\bin\sitecore.framework.conditions.dll (Sitecore Framework Common, Code contracts and conditions for the Sitecore Framework, 1.1.12)
+c:\dev\g4s\website\bin\sitecore.framework.configuration.abstractions.dll (Sitecore Framework Configuration, 2.0.1)
+c:\dev\g4s\website\bin\sitecore.framework.configuration.common.dll (Sitecore Framework Configuration, 2.0.1)
+c:\dev\g4s\website\bin\sitecore.framework.configuration.dll (Sitecore Framework Configuration, 2.0.1)
+c:\dev\g4s\website\bin\sitecore.framework.configuration.extensions.dll (Sitecore Framework Configuration, Sitecore.Framework.Configuration.Extensions Class Library, 2.0.1)
+c:\dev\g4s\website\bin\sitecore.framework.rules.abstractions.dll (Sitecore Framework Rules, Core Rule Engine for the Sitecore Framework, 1.1.28)
+c:\dev\g4s\website\bin\sitecore.framework.rules.api.dll (Sitecore Framework Rules, Core Rule Engine for the Sitecore Framework, 1.1.28)
+c:\dev\g4s\website\bin\sitecore.framework.rules.core.dll (Sitecore Framework Rules, Core Rule Engine for the Sitecore Framework, 1.1.28)
+c:\dev\g4s\website\bin\sitecore.framework.rules.dll (Sitecore Framework Rules, Core Rule Engine for the Sitecore Framework, 1.1.28)
+c:\dev\g4s\website\bin\sitecore.framework.rules.model.dll (Sitecore Framework Rules, Core Rule Engine for the Sitecore Framework, 1.1.28)
+c:\dev\g4s\website\bin\sitecore.framework.rules.registry.dll (Sitecore Framework Rules, Core Rule Engine for the Sitecore Framework, 1.1.28)
+c:\dev\g4s\website\bin\sitecore.framework.rules.serialization.dll (Sitecore Framework Rules, Core Rule Engine for the Sitecore Framework, 1.1.28)
+c:\dev\g4s\website\bin\sitecore.fxm.client.dll (Sitecore FXM, 4.1.0-r01930)
+c:\dev\g4s\website\bin\sitecore.fxm.dll (Sitecore FXM, 4.1.0-r01930)
+c:\dev\g4s\website\bin\sitecore.fxm.service.dll (Sitecore FXM, 4.1.0-r01930)
+c:\dev\g4s\website\bin\sitecore.fxm.speak.dll (Sitecore FXM, 4.1.0-r01930)
+c:\dev\g4s\website\bin\sitecore.itemwebapi.dll (Sitecore Item Web API, 2.1.0-r00012)
+c:\dev\g4s\website\bin\sitecore.kernel.dll (Sitecore, Sitecore CMS Kernel Library, 11.1.0-r00369)
+c:\dev\g4s\website\bin\sitecore.launchpad.dll (Sitecore.LaunchPad, 2.1.0-r00023)
+c:\dev\g4s\website\bin\sitecore.listmanagement.client.dll (Sitecore.ListManager, 2.1.0-r01845)
+c:\dev\g4s\website\bin\sitecore.listmanagement.dll (Sitecore.ListManager, 2.1.0-r01845)
+c:\dev\g4s\website\bin\sitecore.listmanagement.services.dll (Sitecore.ListManager, 2.1.0-r01845)
+c:\dev\g4s\website\bin\sitecore.listmanagement.xconnect.dll (Sitecore.ListManager, 2.1.0-r01845)
+c:\dev\g4s\website\bin\sitecore.logging.client.dll (Sitecore Logging, Lets you insert loggers in your JavaScript, and automatically sends the log messages to a server side component that stores them in your existing server side logs. Interfaces with Sitecore.Logging.
+
+Ideal for logging JavaScript exceptions to the server, including a stack trace. Documentation and examples are at jsnlog.com, 11.1.0-r00019)
+c:\dev\g4s\website\bin\sitecore.logging.dll (Sitecore Logging, Sitecore Logging Framework, 11.1.0-r00019)
+c:\dev\g4s\website\bin\sitecore.marketing.automation.activitydescriptors.client.dll (Sitecore Marketing Automation, 2.0.0-r00460)
+c:\dev\g4s\website\bin\sitecore.marketing.automation.activitydescriptors.dll (Sitecore Marketing Automation, 2.0.0-r00460)
+c:\dev\g4s\website\bin\sitecore.marketing.automation.client.dll (Sitecore Marketing Automation, 2.0.0-r00460)
+c:\dev\g4s\website\bin\sitecore.marketing.automation.dll (Sitecore Marketing Automation, 2.0.0-r00460)
+c:\dev\g4s\website\bin\sitecore.marketing.automation.models.dll (Sitecore Marketing Automation, 2.0.0-r00460)
+c:\dev\g4s\website\bin\sitecore.marketing.campaigns.client.dll (Sitecore CampaignManager, 2.1.0-r00197)
+c:\dev\g4s\website\bin\sitecore.marketing.campaigns.services.dll (Sitecore CampaignManager, 2.1.0-r00197)
+c:\dev\g4s\website\bin\sitecore.marketing.client.dll (Sitecore Marketing Client, 11.6.0-r00101)
+c:\dev\g4s\website\bin\sitecore.marketing.core.dll (Sitecore Marketing Operations, 11.7.0-r00207)
+c:\dev\g4s\website\bin\sitecore.marketing.definitions.marketingassets.repositories.dll (Sitecore Marketing Asset Repositories, 11.6.0-r00103)
+c:\dev\g4s\website\bin\sitecore.marketing.dll (Sitecore Marketing Operations, 11.7.0-r00207)
+c:\dev\g4s\website\bin\sitecore.marketing.operations.xdb.referencedata.dll (Sitecore Marketing Operations, 11.15.0-r00043)
+c:\dev\g4s\website\bin\sitecore.marketing.operations.xdb.referencedata.model.dll (Sitecore Marketing Operations, 11.15.0-r00043)
+c:\dev\g4s\website\bin\sitecore.marketing.operations.xdb.referencedata.service.dll (Sitecore Marketing Operations, 11.15.0-r00043)
+c:\dev\g4s\website\bin\sitecore.marketing.search.dll (Sitecore Marketing Operations, 11.15.0-r00043)
+c:\dev\g4s\website\bin\sitecore.marketing.segmentation.xmgmt.dll (Sitecore Marketing Segmentation, 4.0.0-r00022)
+c:\dev\g4s\website\bin\sitecore.marketing.taxonomy.dll (Sitecore Marketing Operations, 11.7.0-r00207)
+c:\dev\g4s\website\bin\sitecore.marketing.taxonomy.xmgmt.dll (Sitecore Marketing Operations, 11.15.0-r00043)
+c:\dev\g4s\website\bin\sitecore.marketing.xmgmt.dll (Sitecore Marketing Operations, 11.15.0-r00043)
+c:\dev\g4s\website\bin\sitecore.marketing.xmgmt.referencedata.dll (Sitecore Marketing Operations, 11.15.0-r00043)
+c:\dev\g4s\website\bin\sitecore.mvc.analytics.dll (Sitecore Mvc Analytics, 11.6.0-r00047)
+c:\dev\g4s\website\bin\sitecore.mvc.devicesimulator.dll (Sitecore Mvc Device Simulators, 2.1.0-r00011)
+c:\dev\g4s\website\bin\sitecore.mvc.dll (Sitecore Mvc, 2.1.0-r00154)
+c:\dev\g4s\website\bin\sitecore.mvc.experienceeditor.dll (Sitecore MVC ExperienceEditor, 3.1.0-r00142)
+c:\dev\g4s\website\bin\sitecore.nexus.dll (Sitecore.Nexus, 2.0.2)
+c:\dev\g4s\website\bin\sitecore.nvelocity.dll (Sitecore NVelocity, Sitecore Macro Expansion Library, 8.1.0-r00013)
+c:\dev\g4s\website\bin\sitecore.oracle.dll (Sitecore Oracle, 11.1.0-r00024)
+c:\dev\g4s\website\bin\sitecore.owin.authentication.client.dll (Sitecore Owin Authentication, 1.1.0-r00189)
+c:\dev\g4s\website\bin\sitecore.owin.authentication.dll (Sitecore Owin Authentication, 1.1.0-r00189)
+c:\dev\g4s\website\bin\sitecore.owin.dll (Sitecore Owin, 1.1.0-r00040)
+c:\dev\g4s\website\bin\sitecore.pathanalyzer.client.dll (Sitecore.PathAnalyzer, 2.0.1-r00847)
+c:\dev\g4s\website\bin\sitecore.pathanalyzer.dll (Sitecore.PathAnalyzer, 2.0.1-r00847)
+c:\dev\g4s\website\bin\sitecore.pathanalyzer.services.dll (Sitecore.PathAnalyzer, 2.0.1-r00847)
+c:\dev\g4s\website\bin\sitecore.publishing.webdeploy.dll (Sitecore, Sitecore publishing infrastructure based on Web Deployment Tool, 11.1.0-r00369)
+c:\dev\g4s\website\bin\sitecore.security.anticsrf.dll (Sitecore AntiCSRF Module, 2.1.0-r00017)
+c:\dev\g4s\website\bin\sitecore.sequenceanalyzer.dll (Sitecore.PathAnalyzer, 2.0.1-r00847)
+c:\dev\g4s\website\bin\sitecore.services.client.dll (Sitecore Services Client, Sitecore Services, 2.1.0-r00481)
+c:\dev\g4s\website\bin\sitecore.services.core.dll (Sitecore Services Client, Sitecore Services, 2.1.0-r00481)
+c:\dev\g4s\website\bin\sitecore.services.infrastructure.dll (Sitecore Services Client, Sitecore Services, 2.1.0-r00481)
+c:\dev\g4s\website\bin\sitecore.services.infrastructure.sitecore.dll (Sitecore Services Client, Sitecore Services, 2.1.0-r00481)
+c:\dev\g4s\website\bin\sitecore.sessionprovider.dll (Sitecore Session Providers, 11.1.0-r00033)
+c:\dev\g4s\website\bin\sitecore.sessionprovider.memory.dll (Sitecore Session Providers, 11.1.0-r00033)
+c:\dev\g4s\website\bin\sitecore.sessionprovider.mongodb.dll (Sitecore Session Providers, 11.1.0-r00033)
+c:\dev\g4s\website\bin\sitecore.sessionprovider.redis.dll (Sitecore Session Providers, 11.1.0-r00033)
+c:\dev\g4s\website\bin\sitecore.sessionprovider.sql.dll (Sitecore Session Providers, 11.1.0-r00033)
+c:\dev\g4s\website\bin\sitecore.speak.applications.dll (Sitecore Speak Applications, 2.1.0-r00036)
+c:\dev\g4s\website\bin\sitecore.speak.client.dll (Sitecore Speak, 3.1.0-r00375)
+c:\dev\g4s\website\bin\sitecore.speak.components.dll (Sitecore.Speak.Components, 3.1.0-r01156)
+c:\dev\g4s\website\bin\sitecore.speak.components.guidance.dll (Sitecore.Speak.Components, 3.1.0-r01156)
+c:\dev\g4s\website\bin\sitecore.speak.components.web.dll (Sitecore.Speak.Components, 3.1.0-r01156)
+c:\dev\g4s\website\bin\sitecore.speak.integration.services.dll (Sitecore SPEAK 3 Integration, 1.0.0-r00023)
+c:\dev\g4s\website\bin\sitecore.speak.integration.spa.dll (Sitecore SPEAK 3 Integration, 1.0.0-r00023)
+c:\dev\g4s\website\bin\sitecore.speak.itemwebapi.dll (Sitecore Speak, 3.1.0-r00375)
+c:\dev\g4s\website\bin\sitecore.speak.web.dll (Sitecore Speak, 3.1.0-r00375)
+c:\dev\g4s\website\bin\sitecore.update.dll (Sitecore Update Installation Wizard, 3.1.0-r00118)
+c:\dev\g4s\website\bin\sitecore.web.dll (Sitecore Web, 2.1.0-r00054)
+c:\dev\g4s\website\bin\sitecore.xconnect.client.configuration.dll (Sitecore XConnect Client Configuration, 1.0.0-r00039)
+c:\dev\g4s\website\bin\sitecore.xconnect.client.dll (Sitecore XConnect Client, 1.0.0-r00101)
+c:\dev\g4s\website\bin\sitecore.xconnect.collection.model.dll (Sitecore Xdb XConnect Core API, 1.0.0-r00171)
+c:\dev\g4s\website\bin\sitecore.xconnect.diagnostics.dll (Sitecore XConnect Diagnostics Core, 1.0.0-r00029)
+c:\dev\g4s\website\bin\sitecore.xconnect.dll (Sitecore Xdb XConnect Core API, 1.0.0-r00171)
+c:\dev\g4s\website\bin\sitecore.xconnect.search.dll (Sitecore XConnect Search API, 1.0.0-r00057)
+c:\dev\g4s\website\bin\sitecore.xconnect.segmentation.conditions.dll (Sitecore XConnect Segmentation, 4.0.0-r00207)
+c:\dev\g4s\website\bin\sitecore.xconnect.segmentation.engine.dll (Sitecore XConnect Segmentation, 4.0.0-r00207)
+c:\dev\g4s\website\bin\sitecore.xconnect.segmentation.expressionbuilder.model.dll (Sitecore XConnect Segmentation, 4.0.0-r00207)
+c:\dev\g4s\website\bin\sitecore.xconnect.segmentation.predicates.dll (Sitecore XConnect Segmentation, 4.0.0-r00207)
+c:\dev\g4s\website\bin\sitecore.xconnect.segmentation.predicates.model.dll (Sitecore XConnect Segmentation, 4.0.0-r00207)
+c:\dev\g4s\website\bin\sitecore.xdb.client.dll (Sitecore xDB, 11.40.0-r00397)
+c:\dev\g4s\website\bin\sitecore.xdb.common.web.dll (Sitecore Xdb Common Web API, 1.0.0-r00016)
+c:\dev\g4s\website\bin\sitecore.xdb.configuration.dll (Sitecore xDB, 11.40.0-r00397)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.core.dll (Sitecore Xdb Marketing Automation Core, 1.0.0-r00008)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.locators.dll (Sitecore Xdb Marketing Automation Locators, 1.0.0-r00006)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.locators.xmgmt.dll (Sitecore Xdb Marketing Automation Locators, 1.0.0-r00006)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.operationsclient.configuration.dll (Sitecore Xdb Marketing Automation, 1.0.0-r00298)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.operationsclient.dll (Sitecore Xdb Marketing Automation, 1.0.0-r00298)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.reportingclient.configuration.dll (Sitecore Xdb Marketing Automation, 1.0.0-r00298)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.reportingclient.dll (Sitecore Xdb Marketing Automation, 1.0.0-r00298)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.sqlserver.dll (Sitecore Xdb Marketing Automation SqlServer, 1.0.0-r00077)
+c:\dev\g4s\website\bin\sitecore.xdb.marketingautomation.tracking.dll (Sitecore Xdb Marketing Automation, 1.0.0-r00298)
+c:\dev\g4s\website\bin\sitecore.xdb.processing.queue.dll (Sitecore Xdb Processing Queue API, 1.0.0-r00054)
+c:\dev\g4s\website\bin\sitecore.xdb.processing.queue.sqlserver.dll (Sitecore Xdb Processing Queue SqlServer, 1.0.0-r00091)
+c:\dev\g4s\website\bin\sitecore.xdb.referencedata.client.dll (Sitecore Xdb ReferenceData Web, 1.0.0-r00095)
+c:\dev\g4s\website\bin\sitecore.xdb.referencedata.client.xmgmt.dll (Sitecore Xdb ReferenceData Web, 1.0.0-r00095)
+c:\dev\g4s\website\bin\sitecore.xdb.referencedata.core.dll (Sitecore Xdb ReferenceData Service, 1.0.0-r00067)
+c:\dev\g4s\website\bin\sitecore.xdb.referencedata.service.dll (Sitecore Xdb ReferenceData Service, 1.0.0-r00067)
+c:\dev\g4s\website\bin\sitecore.xdb.referencedata.service.xmgmt.dll (Sitecore Xdb ReferenceData Service, 1.0.0-r00067)
+c:\dev\g4s\website\bin\sitecore.xdb.referencedata.sqlserver.dll (Sitecore Xdb ReferenceData SqlServer, 1.0.0-r00069)
+c:\dev\g4s\website\bin\sitecore.xdb.referencedata.sqlserver.xmgmt.dll (Sitecore Xdb ReferenceData SqlServer, 1.0.0-r00069)
+c:\dev\g4s\website\bin\sitecore.xdb.reporting.dll (Sitecore xDB, 11.40.0-r00397)
+c:\dev\g4s\website\bin\sitecore.xdb.sql.common.dll (Sitecore.Xdb.Sql.Common, 1.0.0-r00023)
+c:\dev\g4s\website\bin\sitecore.xdb.sql.common.xmgmt.dll (Sitecore.Xdb.Sql.Common, 1.0.0-r00023)
+c:\dev\g4s\website\bin\sitecore.xdb.tracking.client.dll (Sitecore xDB Tracking, 11.18.0-r00110)
+c:\dev\g4s\website\bin\sitecore.zip.dll (Sitecore Zip, ZIP support for Sitecore, 11.1.0-r00013)
+c:\dev\g4s\website\bin\solrnet.dll (SolrNet, SolrNet, 7e145bad3cb1f6800b55a46e1214929e134deb9b)
+c:\dev\g4s\website\bin\stackexchange.redis.strongname.dll (StackExchange.Redis, 1.0.488)
+c:\dev\g4s\website\bin\system.appcontext.dll (Microsoft® .NET Framework, System.AppContext, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.collections.concurrent.dll (Microsoft® .NET Framework, System.Collections.Concurrent, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.collections.dll (Microsoft® .NET Framework, System.Collections, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.collections.immutable.dll (Microsoft® .NET Framework, System.Collections.Immutable, 4.6.25519.03 built by: dlab-DDVSOWINAGE013. Commit Hash: 8321c729934c0f8be754953439b88e6e1c120c24)
+c:\dev\g4s\website\bin\system.collections.nongeneric.dll (Microsoft® .NET Framework, System.Collections.NonGeneric, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.collections.specialized.dll (Microsoft® .NET Framework, System.Collections.Specialized, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.componentmodel.annotations.dll (Microsoft® .NET Framework, System.ComponentModel.Annotations, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.componentmodel.dll (Microsoft® .NET Framework, System.ComponentModel.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.componentmodel.eventbasedasync.dll (Microsoft® .NET Framework, System.ComponentModel.EventBasedAsync, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.componentmodel.primitives.dll (Microsoft® .NET Framework, System.ComponentModel.Primitives, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.componentmodel.typeconverter.dll (Microsoft® .NET Framework, System.ComponentModel.TypeConverter, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.console.dll (Microsoft® .NET Framework, System.Console, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.data.common.dll (Microsoft® .NET Framework, System.Data.Common, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.diagnostics.contracts.dll (Microsoft® .NET Framework, System.Diagnostics.Contracts.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.diagnostics.debug.dll (Microsoft® .NET Framework, System.Diagnostics.Debug, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.diagnostics.fileversioninfo.dll (Microsoft® .NET Framework, System.Diagnostics.FileVersionInfo, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.diagnostics.process.dll (Microsoft® .NET Framework, System.Diagnostics.Process, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.diagnostics.stacktrace.dll (Microsoft® .NET Framework, System.Diagnostics.StackTrace, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.diagnostics.textwritertracelistener.dll (Microsoft® .NET Framework, System.Diagnostics.TextWriterTraceListener, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.diagnostics.tools.dll (Microsoft® .NET Framework, System.Diagnostics.Tools.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.diagnostics.tracesource.dll (Microsoft® .NET Framework, System.Diagnostics.TraceSource, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.diagnostics.tracing.dll (Microsoft® .NET Framework, System.Diagnostics.Tracing, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.drawing.primitives.dll (Microsoft® .NET Framework, System.Drawing.Primitives, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.dynamic.runtime.dll (Microsoft® .NET Framework, System.Dynamic.Runtime, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.globalization.calendars.dll (Microsoft® .NET Framework, System.Globalization.Calendars, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.globalization.dll (Microsoft® .NET Framework, System.Globalization, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.globalization.extensions.dll (Microsoft® .NET Framework, System.Globalization.Extensions, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.identitymodel.tokens.jwt.dll (System.IdentityModel.Tokens.Jwt, .Net 4.5 support for JSON Web Security Tokens, 40306.1554.8746734617f2cfb525084190b6b1b1a0243aaf3e)
+c:\dev\g4s\website\bin\system.interactive.async.dll (Interactive Extensions, Interactive Extensions Async Library used to express queries over asynchronous enumerable sequences, 3.1.1+Branch.master.Sha.e0b6af3e204feb8aa13841a8a873d78ae6c43467)
+c:\dev\g4s\website\bin\system.interactive.async.providers.dll (Interactive Extensions, Interactive Extensions Async Library used to build query providers and express queries over asynchronous enumerable sequences, 3.1.1+Branch.master.Sha.e0b6af3e204feb8aa13841a8a873d78ae6c43467)
+c:\dev\g4s\website\bin\system.io.compression.dll (Microsoft® .NET Framework, System.IO.Compression, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.io.compression.zipfile.dll (Microsoft® .NET Framework, System.IO.Compression.ZipFile, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.dll (Microsoft® .NET Framework, System.IO, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.filesystem.dll (Microsoft® .NET Framework, System.IO.FileSystem, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.filesystem.driveinfo.dll (Microsoft® .NET Framework, System.IO.FileSystem.DriveInfo, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.filesystem.primitives.dll (Microsoft® .NET Framework, System.IO.FileSystem.Primitives, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.filesystem.watcher.dll (Microsoft® .NET Framework, System.IO.FileSystem.Watcher, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.isolatedstorage.dll (Microsoft® .NET Framework, System.IO.IsolatedStorage, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.memorymappedfiles.dll (Microsoft® .NET Framework, System.IO.MemoryMappedFiles, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.pipes.dll (Microsoft® .NET Framework, System.IO.Pipes, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.io.unmanagedmemorystream.dll (Microsoft® .NET Framework, System.IO.UnmanagedMemoryStream, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.linq.dll (Microsoft® .NET Framework, System.Linq, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.linq.expressions.dll (Microsoft® .NET Framework, System.Linq.Expressions, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.linq.parallel.dll (Microsoft® .NET Framework, System.Linq.Parallel.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.linq.queryable.dll (Microsoft® .NET Framework, System.Linq.Queryable.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.net.http.dll (Microsoft® .NET Framework, System.Net.Http, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.net.http.extensions.compression.core.dll (Core)
+c:\dev\g4s\website\bin\system.net.http.formatting.dll (Microsoft ASP.NET MVC, 5.2.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.net.nameresolution.dll (Microsoft® .NET Framework, System.Net.NameResolution, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.net.networkinformation.dll (Microsoft® .NET Framework, System.Net.NetworkInformation, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.net.ping.dll (Microsoft® .NET Framework, System.Net.Ping, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.net.primitives.dll (Microsoft® .NET Framework, System.Net.Primitives, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.net.requests.dll (Microsoft® .NET Framework, System.Net.Requests, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.net.security.dll (Microsoft® .NET Framework, System.Net.Security, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.net.sockets.dll (Microsoft® .NET Framework, System.Net.Sockets, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.net.webheadercollection.dll (Microsoft® .NET Framework, System.Net.WebHeaderCollection, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.net.websockets.client.dll (Microsoft® .NET Framework, System.Net.WebSockets.Client, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.net.websockets.dll (Microsoft® .NET Framework, System.Net.WebSockets, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.objectmodel.dll (Microsoft® .NET Framework, System.ObjectModel, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.reflection.dll (Microsoft® .NET Framework, System.Reflection, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.reflection.extensions.dll (Microsoft® .NET Framework, System.Reflection.Extensions.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.reflection.primitives.dll (Microsoft® .NET Framework, System.Reflection.Primitives.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.resources.reader.dll (Microsoft® .NET Framework, System.Resources.Reader, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.resources.resourcemanager.dll (Microsoft® .NET Framework, System.Resources.ResourceManager.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.resources.writer.dll (Microsoft® .NET Framework, System.Resources.Writer, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.runtime.compilerservices.visualc.dll (Microsoft® .NET Framework, System.Runtime.CompilerServices.VisualC, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.runtime.dll (Microsoft® .NET Framework, System.Runtime, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.runtime.extensions.dll (Microsoft® .NET Framework, System.Runtime.Extensions, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.runtime.handles.dll (Microsoft® .NET Framework, System.Runtime.Handles, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.runtime.interopservices.dll (Microsoft® .NET Framework, System.Runtime.InteropServices, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.runtime.interopservices.runtimeinformation.dll (Microsoft® .NET Framework, System.Runtime.InteropServices.RuntimeInformation, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.runtime.numerics.dll (Microsoft® .NET Framework, System.Runtime.Numerics.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.runtime.serialization.formatters.dll (Microsoft® .NET Framework, System.Runtime.Serialization.Formatters, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.runtime.serialization.json.dll (Microsoft® .NET Framework, System.Runtime.Serialization.Json.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.runtime.serialization.primitives.dll (Microsoft® .NET Framework, System.Runtime.Serialization.Primitives, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.runtime.serialization.xml.dll (Microsoft® .NET Framework, System.Runtime.Serialization.Xml, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.security.claims.dll (Microsoft® .NET Framework, System.Security.Claims, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.security.cryptography.algorithms.dll (Microsoft® .NET Framework, System.Security.Cryptography.Algorithms, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.security.cryptography.csp.dll (Microsoft® .NET Framework, System.Security.Cryptography.Csp, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.security.cryptography.encoding.dll (Microsoft® .NET Framework, System.Security.Cryptography.Encoding, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.security.cryptography.primitives.dll (Microsoft® .NET Framework, System.Security.Cryptography.Primitives, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.security.cryptography.x509certificates.dll (Microsoft® .NET Framework, System.Security.Cryptography.X509Certificates, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.security.principal.dll (Microsoft® .NET Framework, System.Security.Principal.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.security.securestring.dll (Microsoft® .NET Framework, System.Security.SecureString, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.servicemodel.http.dll (Microsoft® .NET Framework, System.ServiceModel.Http, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.text.encoding.dll (Microsoft® .NET Framework, System.Text.Encoding, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.text.encoding.extensions.dll (Microsoft® .NET Framework, System.Text.Encoding.Extensions, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.text.regularexpressions.dll (Microsoft® .NET Framework, System.Text.RegularExpressions, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.threading.dll (Microsoft® .NET Framework, System.Threading, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.threading.overlapped.dll (Microsoft® .NET Framework, System.Threading.Overlapped, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.threading.tasks.dll (Microsoft® .NET Framework, System.Threading.Tasks, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.threading.tasks.parallel.dll (Microsoft® .NET Framework, System.Threading.Tasks.Parallel.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.threading.thread.dll (Microsoft® .NET Framework, System.Threading.Thread, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.threading.threadpool.dll (Microsoft® .NET Framework, System.Threading.ThreadPool, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.threading.timer.dll (Microsoft® .NET Framework, System.Threading.Timer.dll, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.valuetuple.dll (Microsoft® .NET Framework, System.ValueTuple, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\system.web.cors.dll (Microsoft ASP.NET MVC, 5.2.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.helpers.dll (Microsoft ASP.NET Web Pages, 3.0.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.http.cors.dll (Microsoft ASP.NET MVC, 5.2.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.http.dll (Microsoft ASP.NET MVC, 5.2.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.http.webhost.dll (Microsoft ASP.NET MVC, 5.2.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.mvc.dll (Microsoft ASP.NET MVC, System.Web.Mvc.dll, 5.2.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.odata.dll (Microsoft OData Web API, 6.0.0-40914)
+c:\dev\g4s\website\bin\system.web.optimization.dll (System.Web.Optimization)
+c:\dev\g4s\website\bin\system.web.razor.dll (Microsoft ASP.NET Web Pages, 3.0.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.webpages.deployment.dll (Microsoft ASP.NET Web Pages, 3.0.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.webpages.dll (Microsoft ASP.NET Web Pages, 3.0.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.web.webpages.razor.dll (Microsoft ASP.NET Web Pages, 3.0.3-30128 (0e974218e12a67d4b1f25422119e40cfe6953e46))
+c:\dev\g4s\website\bin\system.xml.readerwriter.dll (Microsoft® .NET Framework, System.Xml.ReaderWriter, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.xml.xdocument.dll (Microsoft® .NET Framework, System.Xml.XDocument, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.xml.xmldocument.dll (Microsoft® .NET Framework, System.Xml.XmlDocument, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.xml.xmlserializer.dll (Microsoft® .NET Framework, System.Xml.XmlSerializer, 4.7.2053.0)
+c:\dev\g4s\website\bin\system.xml.xpath.dll (Microsoft® .NET Framework, System.Xml.XPath, 4.6.25507.01 built by: dlab-DDVSOWINAGE023. Commit Hash: 12c9d44ad9eb995a5e31abfc8e32cce9d647f7af)
+c:\dev\g4s\website\bin\system.xml.xpath.xdocument.dll (Microsoft® .NET Framework, System.Xml.XPath.XDocument, 4.6.25514.04 built by: dlab-DDVSOWINAGE004. Commit Hash: e29d6a31a9a81287c079bba9ba57f1f2e8445b58)
+c:\dev\g4s\website\bin\telerik.web.design.dll (Progress® Telerik® UI for ASP.NET AJAX, Telerik UI for ASP.NET AJAX design time)
+c:\dev\g4s\website\bin\telerik.web.device.detection.dll (Progress® Telerik® UI for ASP.NET AJAX, Telerik Device Detection for ASP.NET Ajax)
+c:\dev\g4s\website\bin\telerik.web.ui.dll (Progress® Telerik® UI for ASP.NET AJAX, Progress® Telerik® UI for ASP.NET AJAX)
+c:\dev\g4s\website\bin\telerik.web.ui.skins.dll (Progress® Telerik® UI for ASP.NET AJAX, Telerik UI for ASP.NET AJAX Ajax Skins)
+c:\dev\g4s\website\bin\unity.abstractions.dll (Unity.Abstractions, Unity Container Public Abstractions, 3.0.0)
+c:\dev\g4s\website\bin\unity.container.dll (Unity.Container, Unity Core Engine, 5.5.0)
+c:\dev\g4s\website\bin\unity.mvc.dll (Unity.Mvc, Unity for ASP.NET MVC, 5.0.11)
+c:\dev\g4s\website\bin\unity.registrationbyconvention.dll (Unity.RegistrationByConvention, Unity Registration By Convention, 2.1.3)
+c:\dev\g4s\website\bin\webactivatorex.dll (WebActivator, A package that allows other packages to execute some startup code in web apps. This package should be used over the older WebActivator, which was not strong named)
+c:\dev\g4s\website\bin\webgrease.dll (WebGrease)
+c:\dev\g4s\website\bin\website.dll (Website)
+c:\dev\g4s\website\bin\yahoo.yui.compressor.dll (YUI Compressor, A .NET port of the Yahoo! YUI Compressor project)
+
+Operating system Microsoft Windows NT 6.1.7601 Service Pack 1
+
+Microsoft.NET version 4.0.30319.42000
+
+UTC offset: 01:00:00
+Machine name: LASSERASCH1D59
+App pool ID: g4s
+
+Process ID: 1812
+Windows identity used by the process: NT AUTHORITY\NETWORK SERVICE. Impersonation: False
+Managed pipeline mode: Integrated
+
+EventQueues enabled: True
+Instance Name:LASSERASCH1D59-g4s
+
+Threshold settings
+  Show threshold warnings: False
+
+Databases
+  core
+  master
+  web
+  filesystem
+
+Domains
+  default
+  extranet
+  sitecore
+
+Active server roles
+standalone
+
+Active Search Provider
+lucene
+
+Active Configuration Environment
+No configuration environment defined.
+
+Other Configuration Rules
+No other rules defined.
+
+Active Configuration Layers
+Sitecore
+Modules
+Custom
+Environment
+**********************************************************************
+**********************************************************************
+
+7020 22:33:42 INFO  Cache created: 'master[data]' (max size: 100MB, running total: 400MB)
+7020 22:33:42 INFO  Cache created: 'master[items]' (max size: 50MB, running total: 450MB)
+7020 22:33:42 INFO  Cache created: 'master[paths]' (max size: 2MB, running total: 453MB)
+7020 22:33:42 INFO  Cache created: 'master[standardValues]' (max size: 2MB, running total: 455MB)
+7020 22:33:42 INFO  Cache created: 'master[languageFallbackObsolete]' (max size: 20MB, running total: 475MB)
+7020 22:33:42 INFO  Cache created: 'master[languageFallback]' (max size: 20MB, running total: 495MB)
+7020 22:33:42 INFO  Cache created: 'master[isLanguageFallbackValid]' (max size: 100KB, running total: 495MB)
+7020 22:33:42 INFO  Cache created: 'master[isLanguageFallbackValidObsolete]' (max size: 100KB, running total: 495MB)
+7020 22:33:42 INFO  Cache created: 'master[itempaths]' (max size: 50MB, running total: 545MB)
+7020 22:33:42 INFO  Cache created: 'master[blobIDs]' (max size: 5MB, running total: 550MB)
+7020 22:33:42 INFO  Cache created: 'web[data]' (max size: 100MB, running total: 650MB)
+7020 22:33:42 INFO  Cache created: 'web[items]' (max size: 50MB, running total: 700MB)
+7020 22:33:42 INFO  Cache created: 'web[paths]' (max size: 2MB, running total: 703MB)
+7020 22:33:42 INFO  Cache created: 'web[standardValues]' (max size: 2MB, running total: 705MB)
+7020 22:33:42 INFO  Cache created: 'web[languageFallbackObsolete]' (max size: 20MB, running total: 725MB)
+7020 22:33:42 INFO  Cache created: 'web[languageFallback]' (max size: 20MB, running total: 745MB)
+7020 22:33:42 INFO  Cache created: 'web[isLanguageFallbackValid]' (max size: 100KB, running total: 745MB)
+7020 22:33:42 INFO  Cache created: 'web[isLanguageFallbackValidObsolete]' (max size: 100KB, running total: 746MB)
+7020 22:33:42 INFO  Cache created: 'web[itempaths]' (max size: 50MB, running total: 796MB)
+7020 22:33:42 INFO  Cache created: 'web[blobIDs]' (max size: 5MB, running total: 801MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[data]' (max size: 0 bytes, running total: 801MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[items]' (max size: 0 bytes, running total: 801MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[paths]' (max size: 0 bytes, running total: 801MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[standardValues]' (max size: 0 bytes, running total: 801MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[languageFallbackObsolete]' (max size: 20MB, running total: 821MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[languageFallback]' (max size: 20MB, running total: 841MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[isLanguageFallbackValid]' (max size: 100KB, running total: 841MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[isLanguageFallbackValidObsolete]' (max size: 100KB, running total: 841MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[itempaths]' (max size: 50MB, running total: 891MB)
+7020 22:33:42 INFO  Cache created: 'filesystem[blobIDs]' (max size: 5MB, running total: 896MB)
+7020 22:33:42 INFO  Cache created: '[FieldReaderCache, Id: defaultFieldReaderMap]' (max size: 5MB, running total: 901MB)
+7020 22:33:43 INFO  Cache created: 'PropertyStore - Property data(core)' (max size: 5MB, running total: 906MB)
+7020 22:33:43 INFO  [Analytics]: Started background service for 'maintenanceService'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'aggregation/aggregator'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'aggregation/contactProcessing'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'aggregation/rebuildAgent'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'aggregation/historyWorker'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'aggregation/historyCompletionCheck'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'processing/taskAgent'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'experienceAnalytics/reduce/agent'.
+7020 22:33:43 INFO  [Experience Analytics]: Experience Analytics subsystem initialized.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'pathAnalyzer/newMapAgent'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'pathAnalyzer/smartMergeAgent'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'aggregation/pathAnalyzerLiveAgent'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'aggregation/pathAnalyzerHistoryAgent'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'pathAnalyzer/trailCleanupAgent'.
+7020 22:33:43 INFO  [Analytics]: Started background service for 'pathAnalyzer/mapRebuildStatusCheckerAgent'.
+7020 22:33:43 INFO  [Path Analyzer](.) Path Analyzer subsystem hook initialized.
+7020 22:33:43 INFO  Cache created: 'LanguageProvider - Languages' (max size: 100KB, running total: 906MB)
+7020 22:33:43 INFO  Scheduler - Initializing
+7020 22:33:43 INFO  Scheduler - Interval set to: 00:00:05
+7020 22:33:43 INFO  Scheduler - Worker thread started
+7020 22:33:43 INFO  DumpConfigurationFiles: Started
+10444 22:33:43 INFO  DumpConfigurationFiles: Dump folder is C:\Dev\G4S\Website\data\diagnostics\configuration_history\20171221Z.213343Z
+10444 22:33:43 INFO  DumpConfigurationFiles: C:\Dev\G4S\Website\App_Config has been dumped
+10444 22:33:43 INFO  DumpConfigurationFiles: C:\Dev\G4S\Website\Web.config has been dumped
+7020 22:33:43 INFO  [Sitecore Mvc]: Sitecore MVC IAssemblyResolver contains 303 assemblies
+10444 22:33:43 INFO  DumpConfigurationFiles: C:\Dev\G4S\Website\Global.asax has been dumped
+10444 22:33:43 INFO  DumpConfigurationFiles: C:\Dev\G4S\Website\sitecore\shell\sitecore.version.xml has been dumped
+10444 22:33:43 INFO  DumpConfigurationFiles: Zipping of the dumped configuration files is enabled
+10444 22:33:43 INFO  DumpConfigurationFiles: C:\Dev\G4S\Website\data\diagnostics\configuration_history\20171221Z.213343Z.zip has been created
+10444 22:33:43 INFO  DumpConfigurationFiles: C:\Dev\G4S\Website\data\diagnostics\configuration_history\20171221Z.213343Z has been removed
+10444 22:33:43 INFO  DumpConfigurationFiles: Completed
+11736 22:33:44 INFO  Cache created: 'PropertyStore - Property data(master)' (max size: 5MB, running total: 911MB)
+11736 22:33:44 INFO  Cache created: 'PropertyStore - Property data(web)' (max size: 5MB, running total: 916MB)
+ManagedPoolThread #9 22:33:44 INFO  Job started: Update device detection DB
+7020 22:33:45 INFO  [Sitecore Services]: IAssemblyResolver contains 265 assemblies
+7020 22:33:45 INFO  Trace: BaseTypeProvider`1.GetTypes 11ms
+7020 22:33:45 INFO  Trace: BaseTypeProvider`1.GetTypes 7ms
+7020 22:33:45 INFO  Trace: BaseTypeProvider`1.GetTypes 6ms
+7020 22:33:45 INFO  Trace: BaseTypeProvider`1.GetTypes 7ms
+7020 22:33:45 INFO  Cache created: 'PathAnalyzer_ResponseCache' (max size: 10MB, running total: 926MB)
+7020 22:33:46 INFO  Sitecore.Analytics.Aggregation.Diagnostics.PerformanceCounters.AnalyticsAggregationCount are initialized
+7020 22:33:46 INFO  Sitecore.Analytics.Processing.Diagnostics.PerformanceCounters.AnalyticsProcessingCount are initialized
+7020 22:33:46 INFO  Sitecore.Analytics.Diagnostics.PerformanceCounters.AnalyticsSqlCount are initialized
+7020 22:33:46 INFO  Sitecore.Analytics.DataAccess.Diagnostics.PerformanceCounters.AnalyticsDataAccessCount are initialized
+7020 22:33:46 INFO  Sitecore.Analytics.Tracking.Diagnostics.PerformanceCounters are initialized
+7020 22:33:46 INFO  Initialized ThreadPoolSizeMonitor with parameters accelerationRate: 50, decelerationRate: 1, updateInterval: 00:00:00.5000000
+7020 22:33:46 INFO  Start thread pool size monitor in the background
+7020 22:33:46 INFO  [Experience Analytics]: SyncSegmentsProcessor started the syncronization of segments
+5008 22:33:46 INFO  [Experience Analytics]: Segment Deploy started.
+7020 22:33:46 INFO  [Experience Analytics]: WebApiInitializer
+7020 22:33:46 INFO  [Experience Analytics]: Filter (Sitecore.ExperienceAnalytics.Api.Http.Filters.CacheHeaderFilterAttribute) added
+7020 22:33:46 INFO  Cache created: 'TransformedIdentities' (max size: 50MB, running total: 976MB)
+7020 22:33:46 WARN  "ApplicationId" property was not set for the Sitecore.Owin.Authentication.Pipelines.Initialize.WindowsAzureActiveDirectoryBearerAuthentication processor. Bearer token authentication will not be configured.
+13228 22:33:46 INFO  HttpModule is being initialized
+9732 22:33:46 INFO  HttpModule is being initialized
+ManagedPoolThread #5 22:33:46 INFO  Trying to load XML configuration /App_Config/Security/Domains.config
+13228 22:33:47 INFO  Cache created: 'SqlDataProvider - Prefetch data(web)' (max size: 100MB, running total: 1076MB)
+13228 22:33:47 INFO  Cache created: 'shell[html]' (max size: 0 bytes, running total: 1076MB)
+13228 22:33:47 INFO  Cache created: 'shell[registry]' (max size: 15MB, running total: 1091MB)
+13228 22:33:47 INFO  Cache created: 'shell[viewstate]' (max size: 1MB, running total: 1092MB)
+13228 22:33:47 INFO  Cache created: 'shell[xsl]' (max size: 25MB, running total: 1117MB)
+13228 22:33:47 INFO  Cache created: 'shell[filtered items]' (max size: 10MB, running total: 1127MB)
+13228 22:33:47 INFO  Cache created: 'login[html]' (max size: 0 bytes, running total: 1127MB)
+13228 22:33:47 INFO  Cache created: 'login[registry]' (max size: 25MB, running total: 1152MB)
+13228 22:33:47 INFO  Cache created: 'login[viewstate]' (max size: 25MB, running total: 1177MB)
+13228 22:33:47 INFO  Cache created: 'login[xsl]' (max size: 50MB, running total: 1227MB)
+13228 22:33:47 INFO  Cache created: 'login[filtered items]' (max size: 10MB, running total: 1237MB)
+13228 22:33:47 INFO  Cache created: 'admin[html]' (max size: 0 bytes, running total: 1237MB)
+13228 22:33:47 INFO  Cache created: 'admin[registry]' (max size: 25MB, running total: 1262MB)
+13228 22:33:47 INFO  Cache created: 'admin[viewstate]' (max size: 25MB, running total: 1287MB)
+13228 22:33:47 INFO  Cache created: 'admin[xsl]' (max size: 50MB, running total: 1337MB)
+13228 22:33:47 INFO  Cache created: 'admin[filtered items]' (max size: 10MB, running total: 1347MB)
+13228 22:33:47 INFO  Cache created: 'service[html]' (max size: 0 bytes, running total: 1347MB)
+13228 22:33:47 INFO  Cache created: 'service[registry]' (max size: 25MB, running total: 1372MB)
+13228 22:33:47 INFO  Cache created: 'service[viewstate]' (max size: 25MB, running total: 1397MB)
+13228 22:33:47 INFO  Cache created: 'service[xsl]' (max size: 50MB, running total: 1447MB)
+13228 22:33:47 INFO  Cache created: 'service[filtered items]' (max size: 10MB, running total: 1457MB)
+13228 22:33:47 INFO  Cache created: 'modules_shell[html]' (max size: 0 bytes, running total: 1457MB)
+13228 22:33:47 INFO  Cache created: 'modules_shell[registry]' (max size: 25MB, running total: 1482MB)
+13228 22:33:47 INFO  Cache created: 'modules_shell[viewstate]' (max size: 25MB, running total: 1507MB)
+13228 22:33:47 INFO  Cache created: 'modules_shell[xsl]' (max size: 50MB, running total: 1557MB)
+13228 22:33:47 INFO  Cache created: 'modules_shell[filtered items]' (max size: 10MB, running total: 1567MB)
+13228 22:33:47 INFO  Cache created: 'modules_website[html]' (max size: 25MB, running total: 1592MB)
+13228 22:33:47 INFO  Cache created: 'modules_website[registry]' (max size: 25MB, running total: 1617MB)
+13228 22:33:47 INFO  Cache created: 'modules_website[viewstate]' (max size: 25MB, running total: 1642MB)
+13228 22:33:47 INFO  Cache created: 'modules_website[xsl]' (max size: 50MB, running total: 1692MB)
+13228 22:33:47 INFO  Cache created: 'modules_website[filtered items]' (max size: 10MB, running total: 1702MB)
+13228 22:33:47 INFO  Cache created: 'website[html]' (max size: 50MB, running total: 1752MB)
+13228 22:33:47 INFO  Cache created: 'website[registry]' (max size: 0 bytes, running total: 1752MB)
+13228 22:33:47 INFO  Cache created: 'website[viewstate]' (max size: 0 bytes, running total: 1752MB)
+13228 22:33:47 INFO  Cache created: 'website[xsl]' (max size: 25MB, running total: 1777MB)
+13228 22:33:47 INFO  Cache created: 'website[filtered items]' (max size: 10MB, running total: 1787MB)
+13228 22:33:47 INFO  Cache created: 'website[renderingParameters]' (max size: 10MB, running total: 1797MB)
+13228 22:33:47 INFO  Cache created: 'scheduler[html]' (max size: 0 bytes, running total: 1797MB)
+13228 22:33:47 INFO  Cache created: 'scheduler[registry]' (max size: 25MB, running total: 1822MB)
+13228 22:33:47 INFO  Cache created: 'scheduler[viewstate]' (max size: 25MB, running total: 1847MB)
+13228 22:33:47 INFO  Cache created: 'scheduler[xsl]' (max size: 50MB, running total: 1897MB)
+13228 22:33:47 INFO  Cache created: 'scheduler[filtered items]' (max size: 10MB, running total: 1907MB)
+13228 22:33:47 INFO  Cache created: 'system[html]' (max size: 0 bytes, running total: 1907MB)
+13228 22:33:47 INFO  Cache created: 'system[registry]' (max size: 25MB, running total: 1932MB)
+13228 22:33:47 INFO  Cache created: 'system[viewstate]' (max size: 25MB, running total: 1957MB)
+13228 22:33:47 INFO  Cache created: 'system[xsl]' (max size: 50MB, running total: 2007MB)
+13228 22:33:47 INFO  Cache created: 'system[filtered items]' (max size: 10MB, running total: 2017MB)
+13228 22:33:47 INFO  Cache created: 'publisher[html]' (max size: 0 bytes, running total: 2017MB)
+13228 22:33:47 INFO  Cache created: 'publisher[registry]' (max size: 25MB, running total: 2042MB)
+13228 22:33:47 INFO  Cache created: 'publisher[viewstate]' (max size: 25MB, running total: 2067MB)
+13228 22:33:47 INFO  Cache created: 'publisher[xsl]' (max size: 50MB, running total: 2117MB)
+13228 22:33:47 INFO  Cache created: 'publisher[filtered items]' (max size: 10MB, running total: 2127MB)
+13228 22:33:48 INFO  Cache created: 'clientData' (max size: 25MB, running total: 2152MB)
+9732 22:33:48 INFO  Cache created: 'UserProfileCache' (max size: 5MB, running total: 2157MB)
+5008 22:33:52 INFO  Cache created: 'SqlDataProvider - Prefetch data(master)' (max size: 200MB, running total: 2357MB)
+5008 22:33:52 INFO  Cache created: 'AccessResultCache' (max size: 10MB, running total: 2367MB)
+13228 22:33:56 INFO  Cache created: 'ItemCloningRelations' (max size: 50MB, running total: 2417MB)
+9732 22:33:56 INFO  Cache created: 'scripts' (max size: 800KB, running total: 2418MB)
+9292 22:33:58 INFO  Cache created: 'Task Manager - Tasks' (max size: 100 bytes, running total: 2418MB)
+5124 22:33:58 ERROR Exception when executing agent aggregation/aggregator
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Reflection.ReflectionUtil.CreateObject(Type type, Object[] parameters)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetConstructorParameters(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient(String clientConfigPath)
+   at Sitecore.Analytics.Processing.AsyncPoolScheduler`2..ctor(IAsyncProcessingPool`1 pool, IXdbContextFactory xdbContextFactory, ExpandOptions options, Int16 maxBatchSize)
+   at Sitecore.Analytics.Aggregation.InteractionAggregationAgent.<ExecuteCoreAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+Nested Exception
+
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Sitecore.XConnect.Client.Configuration.StaticModelConfiguration..ctor(String modeltype, String staticproperty)
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Collection.Model.CollectionModel' threw an exception.
+Source: Sitecore.XConnect.Collection.Model
+   at Sitecore.XConnect.Collection.Model.CollectionModel.get_Model()
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Schema.XConnectCoreModel' threw an exception.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.XdbModelBuilder..ctor(String modelName, XdbModelVersion modelVersion)
+   at Sitecore.XConnect.Collection.Model.CollectionModel.BuildCoreModel()
+   at Sitecore.XConnect.Collection.Model.CollectionModel..cctor()
+
+Nested Exception
+
+Exception: System.TypeLoadException
+Message: Could not load type 'Newtonsoft.Json.Serialization.ExpressionValueProvider' from assembly 'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ReflectionPropertyValueProvider..ctor(PropertyInfo property)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ConvertingReflectionPropertyValueProvider..ctor(PropertyInfo property, IValueConverter converter)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.CreatePropertyValueProvider(XdbType propertyType, PropertyInfo prop)
+   at Sitecore.XConnect.Schema.XdbObjectType.InitializeFactory()
+   at Sitecore.XConnect.Schema.XdbModel.ValidateBaseTypes()
+   at Sitecore.XConnect.Schema.XdbModel..ctor(String name, XdbModelVersion version, XdbNamedType[] types, XdbFacetDefinition[] facets, XdbModel[] referencedModels)
+   at Sitecore.XConnect.Schema.XdbModelBuilder.BuildModel()
+   at Sitecore.XConnect.Schema.XConnectCoreModel..cctor()
+
+
+
+
+
+10620 22:33:58 ERROR Exception when executing agent aggregation/contactProcessing
+Exception: Sitecore.Xdb.Processing.Queue.ProcessingPoolException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: Sitecore.Xdb.Processing.Queue.SqlServer
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPool`2.OnCheckOut(Int16 count)
+   at Sitecore.Xdb.Processing.Queue.ProcessingPool`1.CheckOut(Int16 count)
+   at Sitecore.Analytics.Aggregation.Data.Contact.ContactWorkDispatcher.TryGetNext(ItemBatch`1& batch)
+   at Sitecore.Analytics.Aggregation.Data.Contact.ContactProcessingAgent.<ExecuteCoreAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+Nested Exception
+
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.SqlCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPool`2.OnCheckOut(Int16 count)
+
+
+14208 22:33:58 ERROR Exception when executing agent aggregation/historyCompletionCheck
+Exception: Sitecore.Analytics.Aggregation.History.HistoryTaskProviderException
+Message: The unexpected error occurred during retrieval of the history task.
+Source: Sitecore.Analytics.Sql
+   at Sitecore.Analytics.Aggregation.History.SqlHistoryTaskDataProvider.<TryGetHistoryTaskAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.HistoryTaskManager.<VerifyTaskCompletionAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.Data.Processing.HistoryCompletionCheckAgent.<ExecuteCoreAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+Nested Exception
+
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__174_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass0_0.<<ExecuteReaderWithRetryAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.SqlCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.SqlHistoryTaskDataProvider.<TryGetHistoryTaskAsync>d__17.MoveNext()
+
+
+5124 22:33:58 ERROR Exception when executing agent aggregation/rebuildAgent
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__174_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass0_0.<<ExecuteReaderWithRetryAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.SqlCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.SqlRebuildProcessStateDataProvider.<GetStateAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.ReportingStorageManager.<ProcessRebuildAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.Data.Processing.RebuildAgent.<ExecuteCoreAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+11256 22:33:58 ERROR Exception when executing agent processing/taskAgent
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__174_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass0_0.<<ExecuteReaderWithRetryAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.SqlCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Processing.SqlTaskDataProvider.<GetProcessingTaskUsingRoutineAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Processing.SqlTaskDataProvider.<PickDeferredActionAsync>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Processing.TaskQueue.<TryGetNextAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Processing.TaskAgent.<ExecuteCoreAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+9812 22:33:58 ERROR Exception when executing agent aggregation/pathAnalyzerLiveAgent
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Reflection.ReflectionUtil.CallStaticMethod(String typeName, String methodName, Object[] parameters)
+   at Sitecore.Configuration.DefaultFactory.CreateFromFactoryMethod(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Analytics.Core.BackgroundService.CreateAgent()
+   at Sitecore.Analytics.Core.BackgroundService.ExecuteAgent()
+   at Sitecore.Analytics.Core.BackgroundService.Run()
+
+Nested Exception
+
+Exception: Sitecore.Xdb.Processing.Queue.ProcessingPoolFactoryException
+Message: The unexpected error occurred during creation of the processing pool.
+Source: Sitecore.Xdb.Processing.Queue.SqlServer
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPoolFactory.CreateProcessingPoolCore(GenericProcessingPoolDefinition poolDefinition, Guid poolId)
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPoolFactory.CreateProcessingPool(GenericProcessingPoolDefinition poolDefinition)
+   at Sitecore.PathAnalyzer.ApplicationContainer.GetOrCreateProcessingPool(Guid& processingPoolId)
+
+Nested Exception
+
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass4_0.<ExecuteNonQueryWithRetry>b__0()
+   at Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPoolFactory.CreateProcessingPoolCore(GenericProcessingPoolDefinition poolDefinition, Guid poolId)
+
+
+
+10620 22:33:58 ERROR Exception when executing agent aggregation/historyWorker
+Exception: Sitecore.Analytics.Aggregation.History.HistoryTaskProviderException
+Message: The unexpected error occurred during retrieval of the history task.
+Source: Sitecore.Analytics.Sql
+   at Sitecore.Analytics.Aggregation.History.SqlHistoryTaskDataProvider.<TryGetHistoryTaskAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.HistoryTaskManager.<GetTaskStatusAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.HistoryTaskManager.<IsActiveAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.HistoryTaskManager.<GetInteractionsBatchSchedulerAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.Data.Processing.InteractionHistoryWorker.<GetBatchSchedulerAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.Data.Processing.InteractionHistoryWorker.<ExecuteCoreAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+Nested Exception
+
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__174_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass0_0.<<ExecuteReaderWithRetryAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.SqlCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.SqlHistoryTaskDataProvider.<TryGetHistoryTaskAsync>d__17.MoveNext()
+
+
+5008 22:33:59 INFO  Cache created: 'IsUserInRoleCache' (max size: 5MB, running total: 2423MB)
+5008 22:33:59 INFO  Trying to load XML configuration /App_Config/Security/GlobalRoles.config
+5008 22:33:59 FATAL [Experience Analytics]: Failed to synchronize segments. Message: An error occurred while sending the request.. Details:    at Sitecore.Xdb.Common.Web.Synchronous.SynchronousExtensions.SuspendContextLock[TResult](Func`1 taskFactory)
+   at Sitecore.ExperienceAnalytics.Core.Repositories.ReferenceData.ReferenceDataSegmentReader.GetAll(NameValueCollection readingPreferences)
+   at Sitecore.ExperienceAnalytics.Aggregation.Repositories.AggregationSegmentReader.GetAll(NameValueCollection readingPreferences)
+   at Sitecore.ExperienceAnalytics.Client.Deployment.SyncSegmentsManager.GetSegmentsToSynchronize()
+   at Sitecore.ExperienceAnalytics.Client.Deployment.SyncSegmentsManager.SynchronizeAllSegments()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.ExperienceAnalytics.Client.Deployment.SyncSegmentsProcessor.<Process>d__4.MoveNext()
+ManagedPoolThread #5 22:34:02 INFO  Trying to load XML configuration /App_Config/Security/GlobalRoles.config
+13896 22:34:13 INFO  Cache created: 'ExperienceAnalytics.Sites' (max size: 1MB, running total: 2424MB)
+13896 22:34:13 INFO  Cache created: 'ReportingStorageProviderProperties.Properties' (max size: 10MB, running total: 2434MB)
+11736 22:34:13 ERROR Exception when executing agent aggregation/aggregator
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Reflection.ReflectionUtil.CreateObject(Type type, Object[] parameters)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetConstructorParameters(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient(String clientConfigPath)
+   at Sitecore.Analytics.Processing.AsyncPoolScheduler`2..ctor(IAsyncProcessingPool`1 pool, IXdbContextFactory xdbContextFactory, ExpandOptions options, Int16 maxBatchSize)
+   at Sitecore.Analytics.Aggregation.InteractionAggregationAgent.<ExecuteCoreAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+Nested Exception
+
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Sitecore.XConnect.Client.Configuration.StaticModelConfiguration..ctor(String modeltype, String staticproperty)
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Collection.Model.CollectionModel' threw an exception.
+Source: Sitecore.XConnect.Collection.Model
+   at Sitecore.XConnect.Collection.Model.CollectionModel.get_Model()
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Schema.XConnectCoreModel' threw an exception.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.XdbModelBuilder..ctor(String modelName, XdbModelVersion modelVersion)
+   at Sitecore.XConnect.Collection.Model.CollectionModel.BuildCoreModel()
+   at Sitecore.XConnect.Collection.Model.CollectionModel..cctor()
+
+Nested Exception
+
+Exception: System.TypeLoadException
+Message: Could not load type 'Newtonsoft.Json.Serialization.ExpressionValueProvider' from assembly 'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ReflectionPropertyValueProvider..ctor(PropertyInfo property)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ConvertingReflectionPropertyValueProvider..ctor(PropertyInfo property, IValueConverter converter)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.CreatePropertyValueProvider(XdbType propertyType, PropertyInfo prop)
+   at Sitecore.XConnect.Schema.XdbObjectType.InitializeFactory()
+   at Sitecore.XConnect.Schema.XdbModel.ValidateBaseTypes()
+   at Sitecore.XConnect.Schema.XdbModel..ctor(String name, XdbModelVersion version, XdbNamedType[] types, XdbFacetDefinition[] facets, XdbModel[] referencedModels)
+   at Sitecore.XConnect.Schema.XdbModelBuilder.BuildModel()
+   at Sitecore.XConnect.Schema.XConnectCoreModel..cctor()
+
+
+
+
+
+7632 22:34:13 ERROR Exception when executing agent aggregation/contactProcessing
+Exception: Sitecore.Xdb.Processing.Queue.ProcessingPoolException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: Sitecore.Xdb.Processing.Queue.SqlServer
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPool`2.OnCheckOut(Int16 count)
+   at Sitecore.Xdb.Processing.Queue.ProcessingPool`1.CheckOut(Int16 count)
+   at Sitecore.Analytics.Aggregation.Data.Contact.ContactWorkDispatcher.TryGetNext(ItemBatch`1& batch)
+   at Sitecore.Analytics.Aggregation.Data.Contact.ContactProcessingAgent.<ExecuteCoreAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+Nested Exception
+
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.SqlCommandExtensions.<>c__DisplayClass4.<ExecuteReaderWithRetry>b__3()
+   at Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPool`2.OnCheckOut(Int16 count)
+
+
+8920 22:34:13 ERROR Exception when executing agent aggregation/historyCompletionCheck
+Exception: Sitecore.Analytics.Aggregation.History.HistoryTaskProviderException
+Message: The unexpected error occurred during retrieval of the history task.
+Source: Sitecore.Analytics.Sql
+   at Sitecore.Analytics.Aggregation.History.SqlHistoryTaskDataProvider.<TryGetHistoryTaskAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.HistoryTaskManager.<VerifyTaskCompletionAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.Data.Processing.HistoryCompletionCheckAgent.<ExecuteCoreAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+Nested Exception
+
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__174_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass0_0.<<ExecuteReaderWithRetryAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.SqlCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.SqlHistoryTaskDataProvider.<TryGetHistoryTaskAsync>d__17.MoveNext()
+
+
+11256 22:34:13 INFO  Cache created: 'Task Manager - Tasks' (max size: 100 bytes, running total: 2434MB)
+10312 22:34:13 ERROR Exception when executing agent aggregation/rebuildAgent
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__174_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass0_0.<<ExecuteReaderWithRetryAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.SqlCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.SqlRebuildProcessStateDataProvider.<GetStateAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.ReportingStorageManager.<ProcessRebuildAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.Data.Processing.RebuildAgent.<ExecuteCoreAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+9812 22:34:13 ERROR Exception when executing agent aggregation/pathAnalyzerLiveAgent
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Reflection.ReflectionUtil.CallStaticMethod(String typeName, String methodName, Object[] parameters)
+   at Sitecore.Configuration.DefaultFactory.CreateFromFactoryMethod(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Analytics.Core.BackgroundService.CreateAgent()
+   at Sitecore.Analytics.Core.BackgroundService.ExecuteAgent()
+   at Sitecore.Analytics.Core.BackgroundService.Run()
+
+Nested Exception
+
+Exception: Sitecore.Xdb.Processing.Queue.ProcessingPoolFactoryException
+Message: The unexpected error occurred during creation of the processing pool.
+Source: Sitecore.Xdb.Processing.Queue.SqlServer
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPoolFactory.CreateProcessingPoolCore(GenericProcessingPoolDefinition poolDefinition, Guid poolId)
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPoolFactory.CreateProcessingPool(GenericProcessingPoolDefinition poolDefinition)
+   at Sitecore.PathAnalyzer.ApplicationContainer.GetOrCreateProcessingPool(Guid& processingPoolId)
+
+Nested Exception
+
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass4_0.<ExecuteNonQueryWithRetry>b__0()
+   at Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Sitecore.Xdb.Processing.Queue.SqlServer.SqlServerProcessingPoolFactory.CreateProcessingPoolCore(GenericProcessingPoolDefinition poolDefinition, Guid poolId)
+
+
+
+5008 22:34:13 ERROR Exception when executing agent processing/taskAgent
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__174_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass0_0.<<ExecuteReaderWithRetryAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.SqlCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Processing.SqlTaskDataProvider.<GetProcessingTaskUsingRoutineAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Processing.SqlTaskDataProvider.<PickDeferredActionAsync>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Processing.TaskQueue.<TryGetNextAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Processing.TaskAgent.<ExecuteCoreAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+8920 22:34:13 ERROR Exception when executing agent aggregation/historyWorker
+Exception: Sitecore.Analytics.Aggregation.History.HistoryTaskProviderException
+Message: The unexpected error occurred during retrieval of the history task.
+Source: Sitecore.Analytics.Sql
+   at Sitecore.Analytics.Aggregation.History.SqlHistoryTaskDataProvider.<TryGetHistoryTaskAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.HistoryTaskManager.<GetTaskStatusAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.HistoryTaskManager.<IsActiveAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.HistoryTaskManager.<GetInteractionsBatchSchedulerAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.Data.Processing.InteractionHistoryWorker.<GetBatchSchedulerAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.Data.Processing.InteractionHistoryWorker.<ExecuteCoreAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.Agent.<ExecuteAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<ExecuteAgentAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Core.AsyncBackgroundService.<RunAsync>d__26.MoveNext()
+
+Nested Exception
+
+Exception: System.Data.SqlClient.SqlException
+Message: Cannot execute as the database principal because the principal "dbo" does not exist, this type of principal cannot be impersonated, or you do not have permission.
+Source: .Net SqlClient Data Provider
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__174_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<>c__DisplayClass0_0.<<ExecuteReaderWithRetryAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.DbCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Xdb.Sql.Common.Extensions.SqlCommandExtensions.<ExecuteReaderWithRetryAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Sitecore.Analytics.Aggregation.History.SqlHistoryTaskDataProvider.<TryGetHistoryTaskAsync>d__17.MoveNext()
+
+
+ManagedPoolThread #9 22:34:19 INFO  Cache created: 'SqlDataProvider - Prefetch data(core)' (max size: 150MB, running total: 2584MB)
+ManagedPoolThread #9 22:34:19 INFO  Loading Dictionary from cache
+ManagedPoolThread #9 22:34:19 WARN  Authentication on CES Discovery service failed.
+Exception: System.Net.WebException
+Message: The remote server returned an error: (403) Forbidden.
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at Sitecore.CES.Client.WebClient.<>c__DisplayClass6_0.<ExecuteRequest>b__0()
+   at Sitecore.CES.Client.WebClient.Execute[T](Func`1 action, String requestUri)
+   at Sitecore.CES.Client.ResourceConnector`1.Request(String endpoint, Object[] parameters)
+   at Sitecore.CES.Discovery.EndpointSource.GetEndpoint(String serviceName)
+
+ManagedPoolThread #9 22:34:19 ERROR Could not update device detection database
+Exception: System.ArgumentNullException
+Message: Null ids are not allowed.
+Parameter name: endpointUri
+Source: Sitecore.Kernel
+   at Sitecore.Diagnostics.Assert.ArgumentNotNullOrEmpty(String argument, String argumentName)
+   at Sitecore.CES.Client.WebClient.DownloadBinaryContent(String endpointUri, String resourcePath, DownladBinaryContentParameters parameters)
+   at Sitecore.CES.DeviceDetection.Providers.FiftyOneDegrees.FiftyOneDeviceDetectionClient.GetNewerVersion()
+   at Sitecore.CES.DeviceDetection.Providers.FiftyOneDegrees.FiftyOneDeviceDetectionClient.DoUpdate(String serviceName, String& newDatabasePath, String& newDatabaseVersion)
+   at Sitecore.CES.DeviceDetection.Providers.DeviceDetectionClient.Update()
+
+ManagedPoolThread #9 22:34:19 INFO  Job ended: Update device detection DB (units processed: )
+9732 22:34:21 INFO  Cache created: 'Log singles' (max size: 100KB, running total: 2584MB)
+13228 22:34:21 WARN  No session Id managers were found to manage the session Id for the current request. Default asp.net session manager will be used.
+9732 22:34:21 WARN  No session Id managers were found to manage the session Id for the current request. Default asp.net session manager will be used.
+9732 22:34:21 INFO  Cache created: 'LocationsDictionaryCache' (max size: 976KB, running total: 2585MB)
+9732 22:34:21 INFO  Cache created: 'ReferringSitesDictionaryCache' (max size: 976KB, running total: 2586MB)
+9732 22:34:21 INFO  Cache created: 'GeoIpDataDictionaryCache' (max size: 976KB, running total: 2587MB)
+9732 22:34:21 INFO  Cache created: 'UserAgentDictionaryCache' (max size: 976KB, running total: 2588MB)
+9732 22:34:21 INFO  Cache created: 'DeviceDictionaryCache' (max size: 976KB, running total: 2588MB)
+9732 22:34:21 INFO  Cache created: 'DeviceDictionaryCache' (max size: 976KB, running total: 2589MB)
+9732 22:34:21 WARN  Could not load device '955486c7-f3e8-48b5-94e4-2f63b9abbc38' from the device dictionary.
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Reflection.ReflectionUtil.CreateObject(Type type, Object[] parameters)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetConstructorParameters(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient(String clientConfigPath)
+   at Sitecore.Analytics.XConnect.DataAccess.XConnectDataAdapterProvider.ExecuteWithExceptionHandling[T](Func`2 func)
+   at Sitecore.Analytics.XConnect.Diagnostics.PerformanceCounters.OperationPerformanceMonitorExtensions.Monitor[T](OperationPerformanceMonitorBase monitor, Func`1 operation)
+   at Sitecore.Analytics.XConnect.DataAccess.Dictionaries.XConnectDeviceDictionary.LoadAs[T](Object key)
+   at Sitecore.Analytics.DataAccess.Dictionaries.AverageCounterExtensions.MeasureMilliseconds[T](AverageCounter counter, Func`1 func)
+   at Sitecore.Analytics.DataAccess.Dictionaries.ReferenceDataDictionary`2.Get(TKey key, LookupStrategy strategy)
+   at Sitecore.Analytics.Pipelines.EnsureSessionContext.EnsureDevice.LoadDevice(Guid deviceId)
+
+Nested Exception
+
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Sitecore.XConnect.Client.Configuration.StaticModelConfiguration..ctor(String modeltype, String staticproperty)
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Collection.Model.CollectionModel' threw an exception.
+Source: Sitecore.XConnect.Collection.Model
+   at Sitecore.XConnect.Collection.Model.CollectionModel.get_Model()
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Schema.XConnectCoreModel' threw an exception.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.XdbModelBuilder..ctor(String modelName, XdbModelVersion modelVersion)
+   at Sitecore.XConnect.Collection.Model.CollectionModel.BuildCoreModel()
+   at Sitecore.XConnect.Collection.Model.CollectionModel..cctor()
+
+Nested Exception
+
+Exception: System.TypeLoadException
+Message: Could not load type 'Newtonsoft.Json.Serialization.ExpressionValueProvider' from assembly 'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ReflectionPropertyValueProvider..ctor(PropertyInfo property)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ConvertingReflectionPropertyValueProvider..ctor(PropertyInfo property, IValueConverter converter)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.CreatePropertyValueProvider(XdbType propertyType, PropertyInfo prop)
+   at Sitecore.XConnect.Schema.XdbObjectType.InitializeFactory()
+   at Sitecore.XConnect.Schema.XdbModel.ValidateBaseTypes()
+   at Sitecore.XConnect.Schema.XdbModel..ctor(String name, XdbModelVersion version, XdbNamedType[] types, XdbFacetDefinition[] facets, XdbModel[] referencedModels)
+   at Sitecore.XConnect.Schema.XdbModelBuilder.BuildModel()
+   at Sitecore.XConnect.Schema.XConnectCoreModel..cctor()
+
+
+
+
+
+ManagedPoolThread #4 22:34:22 INFO  Cache created: 'referenceDataDefinitionTypeCache' (max size: 1MB, running total: 2590MB)
+ManagedPoolThread #4 22:34:22 ERROR Failed to retrieve GeoIp data from database
+Exception: System.Net.Http.HttpRequestException
+Message: An error occurred while sending the request.
+Source: Sitecore.Xdb.Common.Web
+   at Sitecore.Xdb.Common.Web.Synchronous.SynchronousExtensions.SuspendContextLock[TResult](Func`1 taskFactory)
+   at Sitecore.Analytics.DataAccess.Dictionaries.DataStorage.ReferenceDataClientDictionary.EnsureDefinitionType(String definitionTypeName)
+   at Sitecore.Analytics.DataAccess.Dictionaries.DataStorage.ReferenceDataClientDictionary.LoadAs[T](Object key)
+   at Sitecore.Analytics.DataAccess.Dictionaries.AverageCounterExtensions.MeasureMilliseconds[T](AverageCounter counter, Func`1 func)
+   at Sitecore.Analytics.DataAccess.Dictionaries.ReferenceDataDictionary`2.Get(TKey key, LookupStrategy strategy)
+   at Sitecore.Analytics.Lookups.GeoIpManager.GetDataFromDatabase(GeoIpHandle geoIpEntry)
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: The remote name could not be resolved: 'sitecore_xconnect'
+Source: System
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+
+
+9732 22:34:33 WARN  The "Media.AlwaysIncludeServerUrl" setting contains an invalid value. The default value is used instead. Invalid value: "". Default value: "False"
+9732 22:34:33 WARN  The "Media.LowercaseUrls" setting contains an invalid value. The default value is used instead. Invalid value: "". Default value: "False"
+14032 22:34:42 WARN  Could not load device '955486c7-f3e8-48b5-94e4-2f63b9abbc38' from the device dictionary.
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Reflection.ReflectionUtil.CreateObject(Type type, Object[] parameters)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetConstructorParameters(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient(String clientConfigPath)
+   at Sitecore.Analytics.XConnect.DataAccess.XConnectDataAdapterProvider.ExecuteWithExceptionHandling[T](Func`2 func)
+   at Sitecore.Analytics.XConnect.Diagnostics.PerformanceCounters.OperationPerformanceMonitorExtensions.Monitor[T](OperationPerformanceMonitorBase monitor, Func`1 operation)
+   at Sitecore.Analytics.XConnect.DataAccess.Dictionaries.XConnectDeviceDictionary.LoadAs[T](Object key)
+   at Sitecore.Analytics.DataAccess.Dictionaries.AverageCounterExtensions.MeasureMilliseconds[T](AverageCounter counter, Func`1 func)
+   at Sitecore.Analytics.DataAccess.Dictionaries.ReferenceDataDictionary`2.Get(TKey key, LookupStrategy strategy)
+   at Sitecore.Analytics.Pipelines.EnsureSessionContext.EnsureDevice.LoadDevice(Guid deviceId)
+
+Nested Exception
+
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Sitecore.XConnect.Client.Configuration.StaticModelConfiguration..ctor(String modeltype, String staticproperty)
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Collection.Model.CollectionModel' threw an exception.
+Source: Sitecore.XConnect.Collection.Model
+   at Sitecore.XConnect.Collection.Model.CollectionModel.get_Model()
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Schema.XConnectCoreModel' threw an exception.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.XdbModelBuilder..ctor(String modelName, XdbModelVersion modelVersion)
+   at Sitecore.XConnect.Collection.Model.CollectionModel.BuildCoreModel()
+   at Sitecore.XConnect.Collection.Model.CollectionModel..cctor()
+
+Nested Exception
+
+Exception: System.TypeLoadException
+Message: Could not load type 'Newtonsoft.Json.Serialization.ExpressionValueProvider' from assembly 'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ReflectionPropertyValueProvider..ctor(PropertyInfo property)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ConvertingReflectionPropertyValueProvider..ctor(PropertyInfo property, IValueConverter converter)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.CreatePropertyValueProvider(XdbType propertyType, PropertyInfo prop)
+   at Sitecore.XConnect.Schema.XdbObjectType.InitializeFactory()
+   at Sitecore.XConnect.Schema.XdbModel.ValidateBaseTypes()
+   at Sitecore.XConnect.Schema.XdbModel..ctor(String name, XdbModelVersion version, XdbNamedType[] types, XdbFacetDefinition[] facets, XdbModel[] referencedModels)
+   at Sitecore.XConnect.Schema.XdbModelBuilder.BuildModel()
+   at Sitecore.XConnect.Schema.XConnectCoreModel..cctor()
+
+
+
+
+
+ManagedPoolThread #7 22:34:44 ERROR Exception in alarm clock event subscriber.
+Exception: System.Runtime.Serialization.SerializationException
+Message: Binary stream '0' does not contain a valid BinaryHeader. Possible causes are invalid stream or object version change between serialization and deserialization.
+Source: mscorlib
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at Sitecore.Analytics.Data.DataAccess.SubmitQueue.FileSubmitQueue.Dequeue()
+   at Sitecore.Analytics.SubmitQueueService.WakeUp()
+   at Sitecore.Services.AlarmClock.<>c__DisplayClass11_0.<Heartbeat_Beat>b__0(Object state)
+
+14032 22:34:45 INFO  Cache created: 'RequestProtection.HashCache' (max size: 3MB, running total: 2593MB)
+14032 22:34:45 WARN  MediaRequestProtection: The Media.RequestProtection.SharedSecret setting currently uses the default value. It is strongly recommended that you change this setting to a random string.
+11980 22:34:47 ERROR Cannot create tracker.
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Reflection.ReflectionUtil.CreateObject(Type type, Object[] parameters)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetConstructorParameters(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient(String clientConfigPath)
+   at Sitecore.Analytics.XConnect.DataAccess.XConnectDataAdapterProvider.ExecuteWithExceptionHandling[T](Func`2 func)
+   at Sitecore.Analytics.XConnect.DataAccess.XConnectDataAdapterProvider.<>c__DisplayClass15_0.<LoadContact>b__0()
+   at Sitecore.Analytics.XConnect.Diagnostics.PerformanceCounters.OperationPerformanceMonitorExtensions.Monitor[T](OperationPerformanceMonitorBase monitor, Func`1 operation)
+   at Sitecore.Analytics.Data.ContactRepository.LoadContact(ID contactId)
+   at Sitecore.Analytics.Tracking.ContactManager.LoadContact(Guid contactId, Boolean exclusive)
+   at Sitecore.Analytics.Pipelines.EnsureSessionContext.LoadContact.Process(InitializeTrackerArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Pipelines.DefaultCorePipelineManager.Run(String pipelineName, PipelineArgs args, String pipelineDomain)
+   at Sitecore.Analytics.Pipelines.EnsureSessionContext.EnsureSessionContextPipeline.<>c__DisplayClass4_0.<Run>b__0()
+   at Sitecore.Analytics.XConnect.Diagnostics.PerformanceCounters.OperationPerformanceMonitorExtensions.<>c__DisplayClass1_0.<Monitor>b__0()
+   at Sitecore.Analytics.XConnect.Diagnostics.PerformanceCounters.OperationPerformanceMonitorExtensions.Monitor[T](OperationPerformanceMonitorBase monitor, Func`1 operation)
+   at Sitecore.Analytics.DefaultTracker.EnsureSessionContext()
+   at Sitecore.Analytics.Pipelines.CreateTracker.GetTracker.Process(CreateTrackerArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Pipelines.DefaultCorePipelineManager.Run(String pipelineName, PipelineArgs args, String pipelineDomain)
+   at Sitecore.Analytics.Tracker.Initialize()
+
+Nested Exception
+
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Sitecore.XConnect.Client.Configuration.StaticModelConfiguration..ctor(String modeltype, String staticproperty)
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Collection.Model.CollectionModel' threw an exception.
+Source: Sitecore.XConnect.Collection.Model
+   at Sitecore.XConnect.Collection.Model.CollectionModel.get_Model()
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Schema.XConnectCoreModel' threw an exception.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.XdbModelBuilder..ctor(String modelName, XdbModelVersion modelVersion)
+   at Sitecore.XConnect.Collection.Model.CollectionModel.BuildCoreModel()
+   at Sitecore.XConnect.Collection.Model.CollectionModel..cctor()
+
+Nested Exception
+
+Exception: System.TypeLoadException
+Message: Could not load type 'Newtonsoft.Json.Serialization.ExpressionValueProvider' from assembly 'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ReflectionPropertyValueProvider..ctor(PropertyInfo property)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ConvertingReflectionPropertyValueProvider..ctor(PropertyInfo property, IValueConverter converter)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.CreatePropertyValueProvider(XdbType propertyType, PropertyInfo prop)
+   at Sitecore.XConnect.Schema.XdbObjectType.InitializeFactory()
+   at Sitecore.XConnect.Schema.XdbModel.ValidateBaseTypes()
+   at Sitecore.XConnect.Schema.XdbModel..ctor(String name, XdbModelVersion version, XdbNamedType[] types, XdbFacetDefinition[] facets, XdbModel[] referencedModels)
+   at Sitecore.XConnect.Schema.XdbModelBuilder.BuildModel()
+   at Sitecore.XConnect.Schema.XConnectCoreModel..cctor()
+
+
+
+
+
+11980 22:34:48 ERROR Cannot create tracker.
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Reflection.ReflectionUtil.CreateObject(Type type, Object[] parameters)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.AssignProperties(XmlNode configNode, String[] parameters, Object obj, Boolean assert, Boolean deferred, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromReference(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetInnerObject(XmlNode paramNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.GetConstructorParameters(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateFromTypeName(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert, IFactoryHelper helper)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(XmlNode configNode, String[] parameters, Boolean assert)
+   at Sitecore.Configuration.DefaultFactory.CreateObject(String configPath, String[] parameters, Boolean assert)
+   at Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient(String clientConfigPath)
+   at Sitecore.Analytics.XConnect.DataAccess.XConnectDataAdapterProvider.ExecuteWithExceptionHandling[T](Func`2 func)
+   at Sitecore.Analytics.XConnect.DataAccess.XConnectDataAdapterProvider.<>c__DisplayClass15_0.<LoadContact>b__0()
+   at Sitecore.Analytics.XConnect.Diagnostics.PerformanceCounters.OperationPerformanceMonitorExtensions.Monitor[T](OperationPerformanceMonitorBase monitor, Func`1 operation)
+   at Sitecore.Analytics.Data.ContactRepository.LoadContact(ID contactId)
+   at Sitecore.Analytics.Tracking.ContactManager.LoadContact(Guid contactId, Boolean exclusive)
+   at Sitecore.Analytics.Pipelines.EnsureSessionContext.LoadContact.Process(InitializeTrackerArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Pipelines.DefaultCorePipelineManager.Run(String pipelineName, PipelineArgs args, String pipelineDomain)
+   at Sitecore.Analytics.Pipelines.EnsureSessionContext.EnsureSessionContextPipeline.<>c__DisplayClass4_0.<Run>b__0()
+   at Sitecore.Analytics.XConnect.Diagnostics.PerformanceCounters.OperationPerformanceMonitorExtensions.<>c__DisplayClass1_0.<Monitor>b__0()
+   at Sitecore.Analytics.XConnect.Diagnostics.PerformanceCounters.OperationPerformanceMonitorExtensions.Monitor[T](OperationPerformanceMonitorBase monitor, Func`1 operation)
+   at Sitecore.Analytics.DefaultTracker.EnsureSessionContext()
+   at Sitecore.Analytics.Pipelines.CreateTracker.GetTracker.Process(CreateTrackerArgs args)
+   at (Object , Object[] )
+   at Sitecore.Pipelines.CorePipeline.Run(PipelineArgs args)
+   at Sitecore.Pipelines.DefaultCorePipelineManager.Run(String pipelineName, PipelineArgs args, String pipelineDomain)
+   at Sitecore.Analytics.Tracker.Initialize()
+
+Nested Exception
+
+Exception: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+Source: mscorlib
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Sitecore.XConnect.Client.Configuration.StaticModelConfiguration..ctor(String modeltype, String staticproperty)
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Collection.Model.CollectionModel' threw an exception.
+Source: Sitecore.XConnect.Collection.Model
+   at Sitecore.XConnect.Collection.Model.CollectionModel.get_Model()
+
+Nested Exception
+
+Exception: System.TypeInitializationException
+Message: The type initializer for 'Sitecore.XConnect.Schema.XConnectCoreModel' threw an exception.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.XdbModelBuilder..ctor(String modelName, XdbModelVersion modelVersion)
+   at Sitecore.XConnect.Collection.Model.CollectionModel.BuildCoreModel()
+   at Sitecore.XConnect.Collection.Model.CollectionModel..cctor()
+
+Nested Exception
+
+Exception: System.TypeLoadException
+Message: Could not load type 'Newtonsoft.Json.Serialization.ExpressionValueProvider' from assembly 'Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Source: Sitecore.XConnect
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ReflectionPropertyValueProvider..ctor(PropertyInfo property)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.ConvertingReflectionPropertyValueProvider..ctor(PropertyInfo property, IValueConverter converter)
+   at Sitecore.XConnect.Schema.Reflection.DelegateFactory.CreatePropertyValueProvider(XdbType propertyType, PropertyInfo prop)
+   at Sitecore.XConnect.Schema.XdbObjectType.InitializeFactory()
+   at Sitecore.XConnect.Schema.XdbModel.ValidateBaseTypes()
+   at Sitecore.XConnect.Schema.XdbModel..ctor(String name, XdbModelVersion version, XdbNamedType[] types, XdbFacetDefinition[] facets, XdbModel[] referencedModels)
+   at Sitecore.XConnect.Schema.XdbModelBuilder.BuildModel()
+   at Sitecore.XConnect.Schema.XConnectCoreModel..cctor()
+
+
+
+
+

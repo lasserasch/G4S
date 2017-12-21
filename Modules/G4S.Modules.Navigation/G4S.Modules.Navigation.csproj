@@ -60,6 +60,9 @@
       <HintPath>..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Kernel, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Kernel.NoReferences.9.0.171002\lib\NET462\Sitecore.Kernel.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Mvc, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Sitecore.Mvc.NoReferences.9.0.171002\lib\NET462\Sitecore.Mvc.dll</HintPath>
     </Reference>
@@ -106,6 +109,7 @@
   <ItemGroup>
     <Content Include="Views\Navigation.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="Views\AsideNavigation.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +128,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Configuration\G4S.Configuration.Core\G4S.Configuration.Core.csproj">
+      <Project>{48E4054B-9676-48C1-9627-5FABF54F6A43}</Project>
+      <Name>G4S.Configuration.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Foundation\G4S.Foundation.ModuleBase\G4S.Foundation.ModuleBase.csproj">
       <Project>{15D17F43-E4E4-4F08-A004-8756B0D26C17}</Project>
       <Name>G4S.Foundation.ModuleBase</Name>

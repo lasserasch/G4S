@@ -1,0 +1,68 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.RichTextElement.Models.RichTextElement>
+<!--Row with one element-->
+@{
+    var imageUrl = "";
+    var backgroundclass = "";
+    var textclass = "";
+
+    if (Model.BackgroundClass != null)
+    {
+        backgroundclass = Model.BackgroundClass;
+        if (!backgroundclass.ToLower().Contains("white") && backgroundclass != string.Empty)
+        {
+            textclass = "white";
+        }
+    }
+
+    if (Model.BackgroundImage != null)
+    {
+        imageUrl = Model.BackgroundImage.Src;
+    }
+}
+    <div class="col col-xs-12 @backgroundclass" style="background-image: url('@imageUrl');  height:100%;">
+        <div class="row">
+            <div class="col col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2 @textclass">
+
+                @if (Model.Short)
+                {
+                    <div class="entry-content text-right">
+                        <!-- RTE content -->
+                        <h3>@Editable(Model, x => x.Title)</h3>
+                        @if (IsInEditingMode)
+                        {
+                            @RenderImage(x => x.BackgroundImage, isEditable: true)
+                            <br />
+                            @Editable(Model, x => x.Text)
+                        }
+                        else
+                        {
+                            <p>@Editable(Model, x => x.Text)</p>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <div class="entry-content text-right">
+                        <!-- RTE content -->
+                        <h2>@Editable(Model, x => x.Title)</h2>
+                        @if (IsInEditingMode)
+                        {
+                            @RenderImage(x => x.BackgroundImage, isEditable: true)
+                            <br />
+                            @Editable(Model, x => x.Text)
+                        }
+                        else
+                        {
+                            <p>@Editable(Model, x => x.Text)</p>
+                        }
+
+                        @if (IsInEditingMode)
+                        {
+                            <br />
+                        }
+                        @RenderLink(Model, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", Model.ButtonClass } }, true)
+                    </div>
+                }
+            </div>
+        </div>
+    </div>

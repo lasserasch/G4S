@@ -1,0 +1,41 @@
+﻿6688 14:21:12 INFO  [Recovery]: Setting default publish recovery strategy.
+6688 14:21:12 INFO  [Recovery]: Publish Recovery Enabled - False
+6688 14:21:12 INFO  [Recovery]: Publish Recovery Strategy - DatabasePublishRecoveryStrategy
+6688 14:21:12 INFO  Settings.Publishing.AutoScheduleSmartPublish:True
+6688 14:21:12 INFO  Settings.Publishing.CheckSecurity:False
+6688 14:21:12 INFO  Settings.Publishing.CompareRevisions:True
+6688 14:21:12 INFO  Settings.Publishing.DisableDatabaseCaches:False
+6688 14:21:12 INFO  Settings.Publishing.ExecuteInManagedThreadPool:False
+6688 14:21:12 INFO  Settings.Publishing.LogInterval:0
+6688 14:21:12 INFO  Settings.Publishing.MaxDegreeOfParallelism:1
+6688 14:21:12 INFO  Settings.Publishing.PublishDialogPollingInterval:500
+6688 14:21:12 INFO  Settings.Publishing.PublishEmptyItems:False
+6688 14:21:12 INFO  Settings.Publishing.PublishingInstance:LASSERASCH1D59-g4s
+6688 14:21:12 INFO  Settings.Publishing.RequireTargetDeleteRightWhenCheckingSecurity:True
+6688 14:21:12 INFO  Settings.Publishing.StatusUpdateInterval:00:00:02
+6688 14:21:12 INFO  Settings.Publishing.ThreadPriority:BelowNormal
+6688 14:21:12 INFO  Settings.Publishing.TimeBeforeStatusExpires:02:00:00
+8028 14:36:02 INFO  [Publishing]: Starting to process 1 publishing options
+8028 14:36:02 INFO  [PublishOptions]: root:null, language:en, targets:Internet, database:web, mode:Full, smart:True children:True, related:True
+6364 14:36:03 WARN  SitePublish detected. PublishContext was overridden with DisableDatabaseCaches=True.
+6364 14:36:03 INFO  Starting [Publishing] - AddItemsToQueue
+6364 14:36:03 INFO  Finished [Publishing] - AddItemsToQueue in 0 ms
+6364 14:36:03 INFO  Starting [Publishing] - ProcessQueue
+6364 14:37:54 INFO  Finished [Publishing] - ProcessQueue in 110513 ms
+6364 14:37:54 INFO  Publish Mode : Smart
+6364 14:37:54 INFO  Created : 42
+6364 14:37:54 INFO  Updated : 12
+6364 14:37:54 INFO  Deleted : 0
+6364 14:37:54 INFO  Skipped : 5117
+6396 14:42:29 INFO  [Publishing]: Starting to process 1 publishing options
+6396 14:42:29 INFO  [PublishOptions]: root:{B1C46CA8-AD2F-40F2-B769-C45396DE32C4}, language:en, targets:Internet, database:web, mode:SingleItem, smart:True children:True, related:True
+11404 14:42:32 WARN  DeepItemPublish detected. PublishContext was overridden with DisableDatabaseCaches=True.
+11404 14:42:32 INFO  Starting [Publishing] - AddItemsToQueue
+11404 14:42:32 INFO  Finished [Publishing] - AddItemsToQueue in 0 ms
+11404 14:42:32 INFO  Starting [Publishing] - ProcessQueue
+11404 14:42:35 INFO  Finished [Publishing] - ProcessQueue in 3154 ms
+11404 14:42:35 INFO  Publish Mode : SingleItem
+11404 14:42:35 INFO  Created : 0
+11404 14:42:35 INFO  Updated : 0
+11404 14:42:35 INFO  Deleted : 0
+11404 14:42:35 INFO  Skipped : 103

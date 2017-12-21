@@ -1,0 +1,36 @@
+﻿7592 00:11:51 INFO  [Publishing]: Starting to process 1 publishing options
+7592 00:11:51 INFO  [PublishOptions]: root:null, language:en, targets:Internet, database:web, mode:Full, smart:True children:True, related:True
+9364 00:11:54 WARN  SitePublish detected. PublishContext was overridden with DisableDatabaseCaches=True.
+9364 00:11:54 INFO  Starting [Publishing] - AddItemsToQueue
+9364 00:11:54 INFO  Finished [Publishing] - AddItemsToQueue in 15 ms
+9364 00:11:54 INFO  Starting [Publishing] - ProcessQueue
+9364 00:14:16 INFO  Finished [Publishing] - ProcessQueue in 142404 ms
+9364 00:14:16 INFO  Publish Mode : Smart
+9364 00:14:16 INFO  Created : 45
+9364 00:14:16 INFO  Updated : 24
+9364 00:14:16 INFO  Deleted : 1
+9364 00:14:16 INFO  Skipped : 5056
+12824 01:04:20 INFO  [Publishing]: Starting to process 1 publishing options
+12824 01:04:20 INFO  [PublishOptions]: root:{1CE3B36C-9B0C-4EB5-A996-BFCB4EAA5287}, language:en, targets:Internet, database:web, mode:SingleItem, smart:True children:True, related:True
+7840 01:04:22 WARN  DeepItemPublish detected. PublishContext was overridden with DisableDatabaseCaches=True.
+7840 01:04:22 INFO  Starting [Publishing] - AddItemsToQueue
+7840 01:04:22 INFO  Finished [Publishing] - AddItemsToQueue in 0 ms
+7840 01:04:22 INFO  Starting [Publishing] - ProcessQueue
+7840 01:04:26 INFO  Finished [Publishing] - ProcessQueue in 4118 ms
+7840 01:04:26 INFO  Publish Mode : SingleItem
+7840 01:04:26 INFO  Created : 1
+7840 01:04:26 INFO  Updated : 2
+7840 01:04:26 INFO  Deleted : 0
+7840 01:04:26 INFO  Skipped : 137
+6976 01:04:41 INFO  [Publishing]: Starting to process 1 publishing options
+6976 01:04:41 INFO  [PublishOptions]: root:{0CCD776A-32A5-4295-8AE6-254E2C6BE468}, language:en, targets:Internet, database:web, mode:SingleItem, smart:True children:True, related:True
+12300 01:04:42 WARN  DeepItemPublish detected. PublishContext was overridden with DisableDatabaseCaches=True.
+12300 01:04:42 INFO  Starting [Publishing] - AddItemsToQueue
+12300 01:04:42 INFO  Finished [Publishing] - AddItemsToQueue in 0 ms
+12300 01:04:42 INFO  Starting [Publishing] - ProcessQueue
+12300 01:04:45 INFO  Finished [Publishing] - ProcessQueue in 3086 ms
+12300 01:04:45 INFO  Publish Mode : SingleItem
+12300 01:04:45 INFO  Created : 0
+12300 01:04:45 INFO  Updated : 0
+12300 01:04:45 INFO  Deleted : 0
+12300 01:04:45 INFO  Skipped : 153

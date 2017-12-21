@@ -1,0 +1,3 @@
+﻿7020 22:46:21 INFO  Warming and Caching your search indexes
+7020 22:46:21 INFO  /******* Warming Queries ********/
+7020 22:46:21 INFO  /*************************/

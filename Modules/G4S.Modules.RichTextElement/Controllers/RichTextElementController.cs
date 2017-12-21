@@ -10,5 +10,11 @@ namespace G4S.Modules.RichTextElement.Controllers
             var model = GetDataSourceItem<Models.RichTextElement>();
             return PartialView("/Views/RichTextElement.cshtml", model);
         }
+
+        public ActionResult RightAligned()
+        {
+            var model = GetDataSourceItem<Models.RichTextElement>();
+            return PartialView("/Views/RichTextElementAlignRight.cshtml", model);
+        }
     }
 }

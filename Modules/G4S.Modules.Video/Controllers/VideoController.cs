@@ -10,5 +10,10 @@ namespace G4S.Modules.Video.Controllers
             var model = GetDataSourceItem<Models.Video>();
             return PartialView("/Views/Video.cshtml", model);
         }
+        public ActionResult Video164()
+        {
+            var model = GetDataSourceItem<Models.Video>();
+            return PartialView("/Views/Video16-4.cshtml", model);
+        }
     }
 }
