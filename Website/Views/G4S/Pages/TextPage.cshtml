@@ -17,9 +17,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link href="humans.txt" rel="author" />
     <script src="/assets/js/modernizr.js"></script>
-
 </head>
-
 
 <body class="textpage">
 
@@ -79,31 +77,7 @@
                     <div class="bg-grey bg-grey-200 visible-md-up">
                         @Html.Sitecore().Rendering("{CC25392D-274A-4BD6-B41F-E9694075C2B4}")
                     </div>
-   
-                    <div class="bg-primary">
-                        <div class="entry-content__grid text-center white">
-                            <h3>h3 title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eum necessitatibus nihil ratione tempora? Ab aliquam ea enim error expedita explicabo ipsam nam provident ut veniam. Eligendi esse itaque quibusdam?</p>
-                            <a href="#" class="btn bg-white" title="button title" target="_blank">Button</a>
-                        </div>
-                    </div>
-
-                    <div class="bg-grey bg-grey-300">
-                        <div class="entry-content__grid text-center white">
-                            <h3>h3 title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eum necessitatibus nihil ratione tempora? Ab aliquam ea enim error expedita explicabo ipsam nam provident ut veniam. Eligendi esse itaque quibusdam?</p>
-                            <a href="#" class="btn" title="button title" target="_blank">Button</a>
-                        </div>
-                    </div>
-
-                    <div class="bg-grey bg-grey-100">
-                        <div class="entry-content__grid text-center">
-                            <h3>h3 title</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eum necessitatibus nihil ratione tempora? Ab aliquam ea enim error expedita explicabo ipsam nam provident ut veniam. Eligendi esse itaque quibusdam?</p>
-                            <a href="#" class="btn bg-grey bg-grey-dark" title="button title" target="_blank">Button</a>
-                        </div>
-                    </div>
-
+                    @Html.Sitecore().Placeholder("textpageaside")
                 </aside>
 
                 <section class="col col-xs-12 col-md-8 js-rte-content">
@@ -161,12 +135,10 @@
 
                     @Html.Sitecore().Placeholder("textpagesection3")
 
-
-
-
                 </section>
             </div>
         </article>
+        @Html.Sitecore().Placeholder("main")
     </main>
 
 

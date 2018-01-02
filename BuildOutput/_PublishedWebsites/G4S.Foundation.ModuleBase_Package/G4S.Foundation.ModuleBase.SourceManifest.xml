@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="C:\Dev\G4S\Foundation\G4S.Foundation.ModuleBase\obj\Release\Package\PackageTmp" />
-  <setAcl path="C:\Dev\G4S\Foundation\G4S.Foundation.ModuleBase\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Dev\G4S\Foundation\G4S.Foundation.ModuleBase\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
-</sitemanifest>

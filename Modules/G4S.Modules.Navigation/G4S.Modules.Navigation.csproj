@@ -129,7 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Configuration\G4S.Configuration.Core\G4S.Configuration.Core.csproj">
-      <Project>{48E4054B-9676-48C1-9627-5FABF54F6A43}</Project>
+      <Project>{7F10B426-4FEC-4F49-A763-B4B5B68CA879}</Project>
       <Name>G4S.Configuration.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Foundation\G4S.Foundation.ModuleBase\G4S.Foundation.ModuleBase.csproj">

@@ -1,0 +1,3 @@
+﻿12192 23:36:18 INFO  Warming and Caching your search indexes
+12192 23:36:18 INFO  /******* Warming Queries ********/
+12192 23:36:18 INFO  /*************************/

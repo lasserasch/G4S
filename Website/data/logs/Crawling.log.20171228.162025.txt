@@ -1,0 +1,4009 @@
+﻿2852 16:20:28 WARN  Failed to initialize 'sitecore_core_index' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:30 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+2852 16:20:30 WARN  DONE
+2852 16:20:32 WARN  Failed to initialize 'sitecore_master_index' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:32 WARN  DONE
+2852 16:20:34 WARN  Failed to initialize 'sitecore_web_index' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:34 WARN  DONE
+2852 16:20:36 WARN  Failed to initialize 'sitecore_marketingdefinitions_master' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:36 WARN  DONE
+2852 16:20:38 WARN  Failed to initialize 'sitecore_marketingdefinitions_web' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:38 WARN  DONE
+2852 16:20:40 WARN  Failed to initialize 'sitecore_marketing_asset_index_master' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:40 WARN  DONE
+2852 16:20:42 WARN  Failed to initialize 'sitecore_marketing_asset_index_web' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:42 WARN  DONE
+2852 16:20:44 WARN  Failed to initialize 'sitecore_testing_index' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:44 WARN  DONE
+2852 16:20:46 WARN  Failed to initialize 'sitecore_suggested_test_index' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:46 WARN  DONE
+2852 16:20:48 WARN  Failed to initialize 'sitecore_fxm_master_index' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:48 WARN  DONE
+2852 16:20:50 WARN  Failed to initialize 'sitecore_fxm_web_index' index. Registering the index for re-initialization once connection to SOLR becomes available ...
+2852 16:20:50 WARN  DONE
+8040 16:20:55 WARN  [Index=sitecore_core_index] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_master_index] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_web_index] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_marketingdefinitions_master] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_marketingdefinitions_web] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_marketing_asset_index_master] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_marketing_asset_index_web] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_testing_index] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_suggested_test_index] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_fxm_master_index] Crawling Paused
+8040 16:20:55 WARN  [Index=sitecore_fxm_web_index] Crawling Paused
+ManagedPoolThread #2 16:26:40 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 16:27:42 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 16:28:45 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 16:29:47 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 16:30:49 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 16:30:56 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #1 16:30:58 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 16:30:58 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #6 16:31:55 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 16:32:57 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 16:34:00 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #4 16:35:02 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 16:36:04 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 16:37:07 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 16:38:09 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 16:39:11 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 16:40:13 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 16:40:58 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #8 16:41:00 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 16:41:00 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #6 16:41:17 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 16:42:20 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 16:43:22 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 16:44:24 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 16:45:26 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 16:46:28 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 16:47:30 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 16:48:32 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 16:49:34 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 16:50:37 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 16:51:02 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #6 16:51:04 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 16:51:04 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #4 16:51:41 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 16:52:43 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 16:53:45 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 16:54:47 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 16:55:49 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 16:56:52 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 16:57:54 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 16:58:56 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 16:59:58 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 17:01:00 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 17:01:05 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #0 17:01:07 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 17:01:07 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #5 17:02:05 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 17:03:07 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 17:04:09 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 17:05:11 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 17:06:13 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 17:07:15 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 17:08:17 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 17:09:20 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 17:10:23 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 17:44:37 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #8 17:44:39 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 17:44:39 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #4 17:44:41 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 17:45:43 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 17:46:45 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 17:47:48 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 17:48:50 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 17:49:52 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 17:50:54 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 17:51:56 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 17:52:58 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 17:54:00 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 17:54:55 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #0 17:54:57 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 17:54:57 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #8 17:55:04 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 17:56:06 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #4 17:57:09 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 17:58:11 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 17:59:13 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 18:00:15 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 18:01:17 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 18:02:19 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 18:03:21 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 18:04:23 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 18:05:14 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #2 18:05:16 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 18:05:16 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #2 18:05:28 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 18:06:30 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 18:07:32 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 18:08:34 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 18:09:36 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 18:10:38 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 18:11:41 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 18:12:43 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 18:13:45 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 18:14:47 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 18:16:04 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #3 18:16:06 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 18:16:06 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #5 18:16:08 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 18:17:10 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 18:18:13 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 18:19:15 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 18:20:17 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 18:21:19 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 18:22:21 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #4 18:23:23 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 18:24:26 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 18:25:28 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 18:26:08 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #7 18:26:10 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 18:26:10 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #5 18:26:32 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 18:27:34 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 18:28:36 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 18:29:38 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 18:30:41 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 18:31:43 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 18:32:45 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 18:33:47 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 18:34:49 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 18:35:51 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 18:36:11 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #7 18:36:13 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 18:36:13 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #1 20:47:36 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #1 20:47:38 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 20:47:38 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #9 20:47:40 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 20:48:46 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 20:49:48 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 20:50:50 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #9 20:51:52 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 20:52:54 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 20:53:56 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 20:54:58 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 20:56:01 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 20:57:03 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 20:57:43 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #3 20:57:45 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 20:57:45 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #3 20:58:07 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #0 20:59:09 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 21:00:11 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 21:01:13 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 21:02:15 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 21:03:18 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 21:04:20 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 21:05:22 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 21:06:24 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 21:07:26 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #9 21:07:46 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #9 21:07:48 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #9 21:07:48 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #2 21:08:30 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #6 21:09:32 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #7 21:10:35 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 21:11:37 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 21:12:39 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 21:13:41 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #9 21:14:43 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #8 21:15:45 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #3 21:16:47 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 21:17:50 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 21:17:55 INFO  IsSolrAliveAgent: 11 indexes are pending for re-initialization. Checking SOLR status...
+ManagedPoolThread #2 21:17:57 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #2 21:17:57 INFO  IsSolrAliveAgent: SOLR is unavailable. Terminating execution
+ManagedPoolThread #8 21:18:54 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #5 21:19:56 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+
+ManagedPoolThread #1 21:20:58 WARN  Unable to connect to Solr: [http://localhost:8983/solr], the [SolrNet.Exceptions.SolrConnectionException] was caught.
+Exception: SolrNet.Exceptions.SolrConnectionException
+Message: Unable to connect to the remote server
+Source: SolrNet
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+   at SolrNet.Impl.SolrCoreAdmin.Status()
+   at Sitecore.ContentSearch.SolrProvider.SolrStatus.OkSolrStatus()
+
+Nested Exception
+
+Exception: System.Net.WebException
+Message: Unable to connect to the remote server
+Source: System
+   at System.Net.HttpWebRequest.GetResponse()
+   at HttpWebAdapters.Adapters.HttpWebRequestAdapter.GetResponse()
+   at SolrNet.Impl.SolrConnection.GetResponse(IHttpWebRequest request)
+   at SolrNet.Impl.SolrConnection.Get(String relativeUrl, IEnumerable`1 parameters)
+
+Nested Exception
+
+Exception: System.Net.Sockets.SocketException
+Message: No connection could be made because the target machine actively refused it 127.0.0.1:8983
+Source: System
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+
+

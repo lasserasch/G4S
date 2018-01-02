@@ -1,0 +1,18 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<G4S.Modules.AsideBox.Models.AsideBox>
+<div class="bg-grey bg-grey-300">
+    <div class="entry-content__grid text-center white">
+        <h3>@Editable(x => x.Title)</h3>
+        @if (IsInEditingMode)
+        {
+            @Editable(x => x.Text)
+        }
+            else
+            {
+            <p>@Editable(x => x.Text)</p>
+        }
+
+     @RenderLink(Model, x => x.Link, new System.Collections.Specialized.NameValueCollection { { "class", "btn" } }, true)
+       
+    </div>
+</div>
+
